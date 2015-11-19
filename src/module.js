@@ -3,10 +3,11 @@
 module.exports = {
     rules: {
         'block-spacing': [ 2, 'always' ],
-        camelcase: 2,
-        curly: 2,
-        eqeqeq: 2,
-        indent: [ 2, 4, { 'VariableDeclarator': { 'let': 1, 'var': 1 } } ],
+        'camelcase': 2,
+        'comma-spacing': [ 2, { after: true, before: false }],
+        'curly': 2,
+        'eqeqeq': 2,
+        'indent': [ 2, 4, { VariableDeclarator: { let: 1, var: 1 } } ],
         'new-cap': 2,
         'no-bitwise': 2,
         'no-caller': 2,
@@ -14,9 +15,12 @@ module.exports = {
         'no-undef': 2,
         'no-unused-expressions': 2,
         'no-unused-vars': 2,
-        quotes: [ 2, 'single', 'avoid-escape' ],
+        'object-curly-spacing': [ 2, 'always' ],
+        'quote-props': [ 2, 'consistent-as-needed' ],
+        'quotes': [ 2, 'single', 'avoid-escape' ],
+        'sort-vars': [ 2, { ignoreCase: true } ],
         'space-before-blocks': [ 2, 'always' ],
-        strict: [ 2, 'global' ],
+        'strict': [ 2, 'global' ],
         'vars-on-top': 2,
         'wrap-iife': 2
     }
