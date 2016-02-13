@@ -1,6 +1,9 @@
 'use strict';
 
 module.exports = {
+    env: {
+        es6: true
+    },
     rules: {
         'block-spacing': [ 2, 'always' ],
         'camelcase': 2,
