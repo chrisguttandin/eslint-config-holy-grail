@@ -15,5 +15,5 @@
   "license": "MIT",
   "main": "src/module.js",
   "name": "eslint-config-holy-grail",
-  "version": "2.1.0"
+  "version": "2.2.0"
 }
