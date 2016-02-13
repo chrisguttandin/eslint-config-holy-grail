@@ -19,11 +19,14 @@ module.exports = {
         'no-unused-expressions': 2,
         'no-unused-vars': 2,
         'object-curly-spacing': [ 2, 'always' ],
+        'one-var-declaration-per-line': [ 2, 'always' ],
         'quote-props': [ 2, 'consistent-as-needed' ],
         'quotes': [ 2, 'single', 'avoid-escape' ],
+        'sort-imports': 2,
         'sort-vars': [ 2, { ignoreCase: true } ],
         'space-before-blocks': [ 2, 'always' ],
         'strict': [ 2, 'global' ],
+        'template-curly-spacing': [ 2, 'always' ],
         'vars-on-top': 2,
         'wrap-iife': 2
     }
