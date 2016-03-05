@@ -12,6 +12,8 @@ module.exports = {
         'eqeqeq': 2,
         'indent': [ 2, 4, { VariableDeclarator: { let: 1, var: 1 } } ],
         'new-cap': 2,
+        'newline-after-var': [ 2, 'always' ],
+        'newline-before-return': 2,
         'no-alert': 2,
         'no-bitwise': 2,
         'no-caller': 2,
