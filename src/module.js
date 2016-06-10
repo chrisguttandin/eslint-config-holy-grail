@@ -21,6 +21,7 @@ module.exports = {
         'no-console': 2,
         'no-debugger': 2,
         'no-duplicate-imports': [ 2, { includeExports: true } ],
+        'no-mixed-operators': 2,
         'no-trailing-spaces': 2,
         'no-undef': 2,
         'no-unused-expressions': 2,
