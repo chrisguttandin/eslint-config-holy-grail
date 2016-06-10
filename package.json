@@ -2,11 +2,14 @@
   "author": "Christoph Guttandin",
   "description": "This is just my personal eslint configuration.",
   "devDependencies": {
+    "chai": "^3.5.0",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-githooks": "^0.6.0",
+    "grunt-mocha-test": "^0.12.7",
     "gruntify-eslint": "^2.0.0",
-    "load-grunt-config": "^0.19.2"
+    "load-grunt-config": "^0.19.2",
+    "mocha": "^2.5.3"
   },
   "keywords": [
     "eslint",
@@ -15,5 +18,8 @@
   "license": "MIT",
   "main": "src/module.js",
   "name": "eslint-config-holy-grail",
+  "scripts": {
+    "test": "grunt test"
+  },
   "version": "3.0.0"
 }

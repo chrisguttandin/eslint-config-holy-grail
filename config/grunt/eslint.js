@@ -1,6 +1,15 @@
 'use strict';
 
 module.exports = {
+    config: {
+        options: {
+            configFile: 'config/eslint/config.json'
+        },
+        src: [
+            '*.js',
+            'config/**/*.js'
+        ]
+    },
     src: {
         options: {
             configFile: 'config/eslint/src.json'
@@ -9,13 +18,12 @@ module.exports = {
             'src/**/*.js'
         ]
     },
-    config: {
+    test: {
         options: {
-            configFile: 'config/eslint/config.json'
+            configFile: 'config/eslint/test.json'
         },
         src: [
-            '*.js',
-            'config/**/*.js'
+            'test/**/*.js'
         ]
     }
 };
