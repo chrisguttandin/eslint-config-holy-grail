@@ -15,9 +15,14 @@
     "eslint",
     "eslintconfig"
   ],
+  "homepage": "https://github.com/chrisguttandin/eslint-config-holy-grail",
   "license": "MIT",
   "main": "src/module.js",
   "name": "eslint-config-holy-grail",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisguttandin/eslint-config-holy-grail.git"
+  },
   "scripts": {
     "test": "grunt test"
   },
