@@ -32,6 +32,7 @@ module.exports = {
         'one-var-declaration-per-line': [ 2, 'always' ],
         'quote-props': [ 2, 'consistent-as-needed' ],
         'quotes': [ 2, 'single', 'avoid-escape' ],
+        'rest-spread-spacing': [ 2, 'never' ],
         'sort-imports': 2,
         'sort-vars': [ 2, { ignoreCase: true } ],
         'space-before-blocks': [ 2, 'always' ],
