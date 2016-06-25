@@ -14,6 +14,7 @@ module.exports = {
         'new-cap': 2,
         'newline-after-var': [ 2, 'always' ],
         'newline-before-return': 2,
+        'newline-per-chained-call': 2,
         'no-alert': 2,
         'no-bitwise': 2,
         'no-caller': 2,
