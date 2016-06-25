@@ -1,5 +1,8 @@
 {
   "author": "Christoph Guttandin",
+  "bugs": {
+    "url": "https://github.com/chrisguttandin/eslint-config-holy-grail/issues"
+  },
   "description": "This is just my personal eslint configuration.",
   "devDependencies": {
     "chai": "^3.5.0",
