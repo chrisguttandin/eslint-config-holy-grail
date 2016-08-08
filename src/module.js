@@ -37,6 +37,7 @@ module.exports = {
         'sort-imports': 2,
         'sort-vars': [ 2, { ignoreCase: true } ],
         'space-before-blocks': [ 2, 'always' ],
+        'space-infix-ops': [ 2 ],
         'strict': [ 2, 'global' ],
         'template-curly-spacing': [ 2, 'always' ],
         'vars-on-top': 2,
