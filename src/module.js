@@ -7,6 +7,7 @@ module.exports = {
     rules: {
         'block-spacing': [ 2, 'always' ],
         'camelcase': 2,
+        'class-methods-use-this': 2,
         'comma-spacing': [ 2, { after: true, before: false }],
         'curly': 2,
         'eqeqeq': 2,
@@ -43,6 +44,7 @@ module.exports = {
         'space-before-blocks': [ 2, 'always' ],
         'space-infix-ops': [ 2 ],
         'strict': [ 2, 'global' ],
+        'symbol-description': 2,
         'template-curly-spacing': [ 2, 'always' ],
         'vars-on-top': 2,
         'wrap-iife': 2
