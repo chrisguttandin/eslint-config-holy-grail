@@ -13,6 +13,7 @@ module.exports = {
         'eqeqeq': 2,
         'func-call-spacing': 2,
         'indent': [ 2, 4, { VariableDeclarator: { let: 1, var: 1 } } ],
+        'line-comment-position': [ 2, { position: 'above' } ],
         'new-cap': 2,
         'newline-after-var': [ 2, 'always' ],
         'newline-before-return': 2,
@@ -26,6 +27,13 @@ module.exports = {
         'no-duplicate-imports': [ 2, { includeExports: true } ],
         'no-global-assign': 2,
         'no-mixed-operators': 2,
+        'no-restricted-properties': [ 2, {
+            object: 'describe',
+            property: 'only'
+        }, {
+            object: 'it',
+            property: 'only'
+        } ],
         'no-trailing-spaces': 2,
         'no-undef': 2,
         'no-unsafe-negation': 2,
