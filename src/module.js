@@ -46,6 +46,7 @@ module.exports = {
         'quote-props': [ 2, 'consistent-as-needed' ],
         'quotes': [ 2, 'single', 'avoid-escape' ],
         'rest-spread-spacing': [ 2, 'never' ],
+        'semi': [ 2, 'always' ],
         'sort-imports': 2,
         'sort-keys': 2,
         'sort-vars': [ 2, { ignoreCase: true } ],
