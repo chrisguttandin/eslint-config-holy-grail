@@ -8,6 +8,7 @@ module.exports = {
         'block-spacing': [ 2, 'always' ],
         'camelcase': 2,
         'class-methods-use-this': 2,
+        'comma-dangle': [ 2, 'never' ],
         'comma-spacing': [ 2, { after: true, before: false }],
         'curly': 2,
         'eqeqeq': 2,
