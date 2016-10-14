@@ -52,6 +52,7 @@ module.exports = {
         'sort-keys': 2,
         'sort-vars': [ 2, { ignoreCase: true } ],
         'space-before-blocks': [ 2, 'always' ],
+        'space-before-function-paren': [ 2, 'always' ],
         'space-infix-ops': [ 2 ],
         'strict': [ 2, 'global' ],
         'symbol-description': 2,
