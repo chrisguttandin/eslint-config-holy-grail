@@ -41,6 +41,7 @@ module.exports = {
         'no-unused-expressions': 2,
         'no-unused-vars': 2,
         'no-useless-escape': 2,
+        'no-useless-return': 2,
         'object-curly-spacing': [ 2, 'always' ],
         'object-shorthand': 2,
         'one-var-declaration-per-line': [ 2, 'always' ],
