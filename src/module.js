@@ -26,6 +26,7 @@ module.exports = {
         'no-console': 2,
         'no-debugger': 2,
         'no-duplicate-imports': [ 2, { includeExports: true } ],
+        'no-extra-boolean-cast': 2,
         'no-global-assign': 2,
         'no-mixed-operators': 2,
         'no-restricted-properties': [ 2, {
@@ -35,6 +36,7 @@ module.exports = {
             object: 'it',
             property: 'only'
         } ],
+        'no-return-await': 2,
         'no-trailing-spaces': 2,
         'no-undef': 2,
         'no-unsafe-negation': 2,
