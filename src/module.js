@@ -44,11 +44,17 @@ module.exports = {
         'no-unused-vars': 2,
         'no-useless-escape': 2,
         'no-useless-return': 2,
+        'no-var': 2,
         'object-curly-spacing': [ 2, 'always' ],
         'object-shorthand': 2,
         'one-var-declaration-per-line': [ 2, 'always' ],
+        'prefer-const': [ 2, {
+            destructuring: 'any',
+            ignoreReadBeforeAssign: false
+        } ],
         'quote-props': [ 2, 'consistent-as-needed' ],
         'quotes': [ 2, 'single', 'avoid-escape' ],
+        'require-await': 2,
         'rest-spread-spacing': [ 2, 'never' ],
         'semi': [ 2, 'always' ],
         'sort-imports': 2,
