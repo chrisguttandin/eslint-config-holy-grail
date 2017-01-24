@@ -30,6 +30,7 @@ module.exports = {
         'no-extra-boolean-cast': 2,
         'no-global-assign': 2,
         'no-mixed-operators': 2,
+        'no-multi-assign': 2,
         'no-restricted-properties': [ 2, {
             object: 'describe',
             property: 'only'
