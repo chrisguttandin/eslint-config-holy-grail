@@ -26,6 +26,7 @@ module.exports = {
         'no-console': 2,
         'no-debugger': 2,
         'no-duplicate-imports': [ 2, { includeExports: true } ],
+        'no-else-return': 2,
         'no-extra-boolean-cast': 2,
         'no-global-assign': 2,
         'no-mixed-operators': 2,
