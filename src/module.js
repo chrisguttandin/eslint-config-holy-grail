@@ -38,6 +38,7 @@ module.exports = {
             property: 'only'
         } ],
         'no-return-await': 2,
+        'no-throw-literal': 2,
         'no-trailing-spaces': 2,
         'no-undef': 2,
         'no-unsafe-negation': 2,
@@ -53,6 +54,7 @@ module.exports = {
             destructuring: 'any',
             ignoreReadBeforeAssign: false
         } ],
+        'prefer-promise-reject-errors': 2,
         'quote-props': [ 2, 'consistent-as-needed' ],
         'quotes': [ 2, 'single', 'avoid-escape' ],
         'require-await': 2,
