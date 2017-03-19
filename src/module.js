@@ -42,6 +42,7 @@ module.exports = {
             object: 'it',
             property: 'only'
         } ],
+        'no-restricted-syntax': [ 2, 'CallExpression[callee.name="xdescribe"]', 'CallExpression[callee.name="xit"]' ],
         'no-return-await': 2,
         'no-throw-literal': 2,
         'no-trailing-spaces': 2,
