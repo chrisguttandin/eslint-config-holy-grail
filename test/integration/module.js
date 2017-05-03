@@ -1,5 +1,3 @@
-'use strict';
-
 const CLIEngine = require('eslint').CLIEngine;
 const config = require('../../src/module.js');
 
