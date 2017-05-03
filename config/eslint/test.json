@@ -6,5 +6,11 @@
     "extends": "../../src/module.js",
     "globals": {
         "expect": false
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-unused-expressions": 0
     }
 }
