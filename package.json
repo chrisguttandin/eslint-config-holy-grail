@@ -31,7 +31,7 @@
   },
   "scripts": {
     "precommit": "grunt lint",
-    "test": "grunt test"
+    "test": "grunt lint && grunt test"
   },
   "version": "17.0.0"
 }
