@@ -17,6 +17,9 @@
   "engines": {
     "node": ">=6.10.3"
   },
+  "files": [
+    "src/"
+  ],
   "homepage": "https://github.com/chrisguttandin/eslint-config-holy-grail",
   "keywords": [
     "eslint",
