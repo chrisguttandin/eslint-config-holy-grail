@@ -64,6 +64,7 @@ module.exports = {
         'require-await': 2,
         'rest-spread-spacing': [ 2, 'never' ],
         'semi': [ 2, 'always' ],
+        'semi-style': 2,
         'sort-imports': 2,
         'sort-keys': 2,
         'sort-vars': [ 2, { ignoreCase: true } ],
