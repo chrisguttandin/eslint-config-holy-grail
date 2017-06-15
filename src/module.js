@@ -20,6 +20,7 @@ module.exports = {
         'newline-per-chained-call': 2,
         'no-alert': 2,
         'no-bitwise': 2,
+        'no-buffer-constructor': 2,
         'no-caller': 2,
         'no-compare-neg-zero': 2,
         'no-cond-assign': [ 2, 'except-parens' ],
