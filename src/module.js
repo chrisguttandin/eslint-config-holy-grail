@@ -7,7 +7,7 @@ module.exports = {
         'camelcase': 2,
         'class-methods-use-this': 2,
         'comma-dangle': [ 2, 'never' ],
-        'comma-spacing': [ 2, { after: true, before: false }],
+        'comma-spacing': [ 2, { after: true, before: false } ],
         'curly': 2,
         'eqeqeq': 2,
         'func-call-spacing': 2,
