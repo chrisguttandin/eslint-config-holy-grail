@@ -71,6 +71,7 @@ module.exports = {
         'space-before-function-paren': [ 2, 'always' ],
         'space-infix-ops': [ 2 ],
         'strict': [ 2, 'global' ],
+        'switch-colon-spacing': 2,
         'symbol-description': 2,
         'template-curly-spacing': [ 2, 'always' ],
         'vars-on-top': 2,
