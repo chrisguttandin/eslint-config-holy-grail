@@ -3,6 +3,7 @@ module.exports = {
         es6: true
     },
     rules: {
+        'array-bracket-spacing': [ 2, 'always' ],
         'block-spacing': [ 2, 'always' ],
         'camelcase': 2,
         'class-methods-use-this': 2,
@@ -15,8 +16,6 @@ module.exports = {
         'indent': [ 2, 4, { VariableDeclarator: { let: 1, var: 1 } } ],
         'line-comment-position': [ 2, { position: 'above' } ],
         'new-cap': 2,
-        'newline-after-var': [ 2, 'always' ],
-        'newline-before-return': 2,
         'newline-per-chained-call': 2,
         'no-alert': 2,
         'no-bitwise': 2,
@@ -35,6 +34,7 @@ module.exports = {
         'no-global-assign': 2,
         'no-mixed-operators': 2,
         'no-multi-assign': 2,
+        'no-multi-spaces': 2,
         'no-restricted-properties': [ 2, {
             object: 'describe',
             property: 'only'
@@ -53,9 +53,30 @@ module.exports = {
         'no-useless-escape': 2,
         'no-useless-return': 2,
         'no-var': 2,
+        'object-curly-newline': [ 2, { consistent: true } ],
         'object-curly-spacing': [ 2, 'always' ],
         'object-shorthand': 2,
         'one-var-declaration-per-line': [ 2, 'always' ],
+        'padding-line-between-statements': [
+            2,
+            {
+                blankLine: 'always',
+                next: 'return',
+                prev: '*'
+            }, {
+                blankLine: 'always',
+                next: '*',
+                prev: [ 'const', 'let' ]
+            }, {
+                blankLine: 'never',
+                next: 'const',
+                prev: 'const'
+            }, {
+                blankLine: 'never',
+                next: 'let',
+                prev: 'let'
+            }
+        ],
         'prefer-const': [ 2, {
             destructuring: 'any',
             ignoreReadBeforeAssign: false
