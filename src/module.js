@@ -10,6 +10,7 @@ module.exports = {
         'comma-spacing': [ 2, { after: true, before: false } ],
         'curly': 2,
         'eqeqeq': 2,
+        'for-direction': 2,
         'func-call-spacing': 2,
         'indent': [ 2, 4, { VariableDeclarator: { let: 1, var: 1 } } ],
         'line-comment-position': [ 2, { position: 'above' } ],
