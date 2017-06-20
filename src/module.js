@@ -2,6 +2,10 @@ module.exports = {
     env: {
         es6: true
     },
+    parserOptions: {
+        ecmaVersion: '2017',
+        sourceType: 'module'
+    },
     rules: {
         'array-bracket-spacing': [ 2, 'always' ],
         'block-spacing': [ 2, 'always' ],
