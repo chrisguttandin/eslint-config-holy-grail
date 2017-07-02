@@ -2,8 +2,5 @@
     "env": {
         "node": true
     },
-    "extends": "../../src/module.js",
-    "parserOptions": {
-        "sourceType": "module"
-    }
+    "extends": "../../src/module.js"
 }
