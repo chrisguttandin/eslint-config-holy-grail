@@ -40,6 +40,7 @@ module.exports = {
         'no-mixed-operators': 2,
         'no-multi-assign': 2,
         'no-multi-spaces': 2,
+        'no-param-reassign': 2,
         'no-restricted-properties': [ 2, {
             object: 'describe',
             property: 'only'
