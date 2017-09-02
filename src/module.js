@@ -17,6 +17,7 @@ module.exports = {
         'eqeqeq': 2,
         'for-direction': 2,
         'func-call-spacing': 2,
+        'function-paren-newline': [ 2, 'multiline' ],
         'indent': [ 2, 4, { VariableDeclarator: { let: 1, var: 1 } } ],
         'line-comment-position': [ 2, { position: 'above' } ],
         'multiline-ternary': [ 2, 'always-multiline' ],
