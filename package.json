@@ -30,6 +30,9 @@
   "license": "MIT",
   "main": "src/module.js",
   "name": "eslint-config-holy-grail",
+  "peerDependencies": {
+    "eslint": ">=4.6.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/chrisguttandin/eslint-config-holy-grail.git"
