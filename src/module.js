@@ -38,6 +38,7 @@ module.exports = {
         'no-else-return': 2,
         'no-extra-boolean-cast': 2,
         'no-global-assign': 2,
+        'no-irregular-whitespace': 2,
         'no-mixed-operators': 2,
         'no-multi-assign': 2,
         'no-multi-spaces': 2,
