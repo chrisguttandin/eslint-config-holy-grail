@@ -38,6 +38,7 @@ module.exports = {
         'no-duplicate-imports': [ 2, { includeExports: true } ],
         'no-else-return': 2,
         'no-extra-boolean-cast': 2,
+        'no-fallthrough': 2,
         'no-global-assign': 2,
         'no-irregular-whitespace': 2,
         'no-mixed-operators': 2,
