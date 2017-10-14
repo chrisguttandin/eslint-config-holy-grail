@@ -22,6 +22,7 @@ module.exports = {
         'indent': [ 'error', 4, { VariableDeclarator: { let: 1, var: 1 } } ],
         'line-comment-position': [ 'error', { position: 'above' } ],
         'lines-between-class-members': [ 'error', 'always' ],
+        'multiline-comment-style': 'error',
         'multiline-ternary': [ 'error', 'always-multiline' ],
         'new-cap': 'error',
         'newline-per-chained-call': 'error',
