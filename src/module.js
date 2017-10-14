@@ -47,18 +47,24 @@ module.exports = {
         'no-multi-spaces': 'error',
         'no-param-reassign': 'error',
         'no-restricted-properties': [ 'error', {
+            message: 'describe.only() should not end up in any commit.',
             object: 'describe',
             property: 'only'
         }, {
+            message: 'it.only() should not end up in any commit.',
             object: 'it',
             property: 'only'
         } ],
-        'no-restricted-syntax': [
-            'error',
-            'CallExpression[callee.name="xdescribe"]',
-            'CallExpression[callee.name="xit"]',
-            'NewExpression[callee.name="OpaqueToken"]'
-        ],
+        'no-restricted-syntax': [ 'error', {
+            message: 'xdescribe() should not end up in any commit.',
+            selector: 'CallExpression[callee.name="xdescribe"]'
+        }, {
+            message: 'xit() should not end up in any commit.',
+            selector: 'CallExpression[callee.name="xit"]'
+        }, {
+            message: 'OpaqueToken is deprecated. InjectionToken should be used instead.',
+            selector: 'NewExpression[callee.name="OpaqueToken"]'
+        } ],
         'no-return-await': 'error',
         'no-sync': 'error',
         'no-throw-literal': 'error',
