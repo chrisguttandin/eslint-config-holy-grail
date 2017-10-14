@@ -21,6 +21,7 @@ module.exports = {
         'function-paren-newline': [ 'error', 'multiline' ],
         'indent': [ 'error', 4, { VariableDeclarator: { let: 1, var: 1 } } ],
         'line-comment-position': [ 'error', { position: 'above' } ],
+        'lines-between-class-members': [ 'error', 'always' ],
         'multiline-ternary': [ 'error', 'always-multiline' ],
         'new-cap': 'error',
         'newline-per-chained-call': 'error',
