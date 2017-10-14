@@ -53,7 +53,12 @@ module.exports = {
             object: 'it',
             property: 'only'
         } ],
-        'no-restricted-syntax': [ 2, 'CallExpression[callee.name="xdescribe"]', 'CallExpression[callee.name="xit"]' ],
+        'no-restricted-syntax': [
+            2,
+            'CallExpression[callee.name="xdescribe"]',
+            'CallExpression[callee.name="xit"]',
+            'NewExpression[callee.name="OpaqueToken"]'
+        ],
         'no-return-await': 2,
         'no-sync': 2,
         'no-throw-literal': 2,
