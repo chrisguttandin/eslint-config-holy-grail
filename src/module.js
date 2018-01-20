@@ -80,6 +80,7 @@ module.exports = {
         'no-var': 'error',
         'object-curly-newline': [ 'error', { consistent: true } ],
         'object-curly-spacing': [ 'error', 'always' ],
+        'object-property-newline': [ 'error', { allowAllPropertiesOnSameLine: true } ],
         'object-shorthand': 'error',
         'one-var-declaration-per-line': [ 'error', 'always' ],
         'padding-line-between-statements': [
