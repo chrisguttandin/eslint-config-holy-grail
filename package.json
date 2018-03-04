@@ -3,6 +3,11 @@
   "bugs": {
     "url": "https://github.com/chrisguttandin/eslint-config-holy-grail/issues"
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "description": "This is just my personal eslint configuration.",
   "devDependencies": {
     "@commitlint/cli": "^6.1.3",
