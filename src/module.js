@@ -45,6 +45,7 @@ module.exports = {
         'no-else-return': 'error',
         'no-extra-boolean-cast': 'error',
         'no-fallthrough': 'error',
+        'no-floating-decimal': 'error',
         'no-global-assign': 'error',
         'no-irregular-whitespace': 'error',
         'no-mixed-operators': 'error',
