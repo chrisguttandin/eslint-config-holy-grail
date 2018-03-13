@@ -6,6 +6,9 @@ module.exports = {
         ecmaVersion: '2018',
         sourceType: 'module'
     },
+    plugins: [
+        'unicorn'
+    ],
     rules: {
         'array-bracket-spacing': [ 'error', 'always' ],
         'block-spacing': [ 'error', 'always' ],
@@ -125,6 +128,7 @@ module.exports = {
         'switch-colon-spacing': 'error',
         'symbol-description': 'error',
         'template-curly-spacing': [ 'error', 'always' ],
+        'unicorn/no-process-exit': [ 'error' ],
         'vars-on-top': 'error',
         'wrap-iife': 'error'
     }
