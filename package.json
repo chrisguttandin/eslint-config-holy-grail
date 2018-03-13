@@ -8,6 +8,9 @@
       "path": "cz-conventional-changelog"
     }
   },
+  "dependencies": {
+    "eslint-plugin-unicorn": "^4.0.2"
+  },
   "description": "This is just my personal eslint configuration.",
   "devDependencies": {
     "@commitlint/cli": "^6.1.3",
