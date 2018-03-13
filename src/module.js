@@ -130,6 +130,7 @@ module.exports = {
         'symbol-description': 'error',
         'template-curly-spacing': [ 'error', 'always' ],
         'unicorn/no-process-exit': 'error',
+        'unicorn/number-literal-case': 'error',
         'unicorn/throw-new-error': 'error',
         'vars-on-top': 'error',
         'wrap-iife': 'error'
