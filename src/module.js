@@ -129,6 +129,7 @@ module.exports = {
         'switch-colon-spacing': 'error',
         'symbol-description': 'error',
         'template-curly-spacing': [ 'error', 'always' ],
+        'unicorn/error-message': 'error',
         'unicorn/no-array-instanceof': 'error',
         'unicorn/no-process-exit': 'error',
         'unicorn/number-literal-case': 'error',
