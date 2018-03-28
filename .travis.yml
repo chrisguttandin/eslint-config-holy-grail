@@ -1,10 +1,13 @@
 after_script: greenkeeper-lockfile-upload
 before_install: npm install npm@latest --global
 before_script: greenkeeper-lockfile-update
+cache:
+  directories:
+    - $HOME/.npm
 env:
   global:
     - secure: hoIld2Eh/bqV0whgElra4e91Mw/UI21CZudAhMwuObgz5XciztkM7tMKFPXXT79tqvOC1nda1TP5m5XSDhf80XGu0CIrxncnjftGzcrvdX4Y9NshyeZpPidcnm/UUqO81YAQqwQJFrLAOkHZPqmJmoBYUM0x5wgsBIhgpuzWYu+f+Ec9Zeh59N3Qym15iZ2VuxTnPCzI73yZCA5XvQ0114I/3CjK+w/1ZwefKB+FSQUGTYf6jSMPikzIHci5W9jHd8Cqt58SIHTcuJFcA/f4/yCsgmL4np6dXGMQOBp1YVJUHhaaqsSalTEI9/zPNyeL63j4t0WO7BCd43zLG8woPar99FlqTrwNBkw38luTyPF59HsuQWxrkvQv4WqhqR/8YlX1LdETBhJx0t4U0/glV4fJgL96RefMhmIu74shDM3e8J1ZyOESvG2ii5uR8SDtk1k6BNr9MVZ3oP7UNEmWWVh6tAWc4W2ZEDs9DNQ2vdayUws7T0v8CZn4JvPZQQAV5IR6/t7lbkGfPNgASSy4ch9+DGIQ7sgJqB3GXcrGhM4t7Yhs9IotrHSU0iMsegA62wQb0Idmdr9MYGH1m/n0jsYLcojIFwP7YijSsivnqDgiaRtTGCpn4BKaYtG7Eqwamd8yDCgASS25N3gfsoAvvfbEDpv9ltAfxtPVreEvxwI=
-install: npm ci || npm i
+install: npm ci || (rm -rf node_modules && npm install)
 language: node_js
 node_js: 6
 sudo: false
