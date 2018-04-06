@@ -9,7 +9,7 @@
     }
   },
   "dependencies": {
-    "eslint-plugin-unicorn": "^4.0.2"
+    "eslint-plugin-unicorn": "^4.0.3"
   },
   "description": "This is just my personal eslint configuration.",
   "devDependencies": {
