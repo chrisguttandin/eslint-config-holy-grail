@@ -83,7 +83,7 @@ module.exports = {
         'no-useless-escape': 'error',
         'no-useless-return': 'error',
         'no-var': 'error',
-        'node/no-deprecated-api': 'error',
+        'node/no-deprecated-api': [ 'error', { ignoreGlobalItems: [ 'require.extensions' ] } ],
         'object-curly-newline': [ 'error', { consistent: true } ],
         'object-curly-spacing': [ 'error', 'always' ],
         'object-property-newline': [ 'error', { allowAllPropertiesOnSameLine: true } ],
