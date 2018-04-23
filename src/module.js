@@ -7,6 +7,7 @@ module.exports = {
         sourceType: 'module'
     },
     plugins: [
+        'node',
         'unicorn'
     ],
     rules: {
@@ -82,6 +83,7 @@ module.exports = {
         'no-useless-escape': 'error',
         'no-useless-return': 'error',
         'no-var': 'error',
+        'node/no-deprecated-api': 'error',
         'object-curly-newline': [ 'error', { consistent: true } ],
         'object-curly-spacing': [ 'error', 'always' ],
         'object-property-newline': [ 'error', { allowAllPropertiesOnSameLine: true } ],
