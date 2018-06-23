@@ -12,6 +12,7 @@ module.exports = {
     ],
     rules: {
         'array-bracket-spacing': [ 'error', 'always' ],
+        'array-element-newline': [ 'error', 'consistent' ],
         'block-spacing': [ 'error', 'always' ],
         'camelcase': 'error',
         'class-methods-use-this': 'error',
