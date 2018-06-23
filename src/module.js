@@ -23,6 +23,7 @@ module.exports = {
         'eqeqeq': 'error',
         'for-direction': 'error',
         'func-call-spacing': 'error',
+        'func-name-matching': 'error',
         'function-paren-newline': [ 'error', 'multiline' ],
         'indent': [ 'error', 4, { VariableDeclarator: { let: 1, var: 1 } } ],
         'line-comment-position': [ 'error', { position: 'above' } ],
