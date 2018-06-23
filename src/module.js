@@ -91,26 +91,23 @@ module.exports = {
         'object-property-newline': [ 'error', { allowAllPropertiesOnSameLine: true } ],
         'object-shorthand': 'error',
         'one-var-declaration-per-line': [ 'error', 'always' ],
-        'padding-line-between-statements': [
-            'error',
-            {
-                blankLine: 'always',
-                next: 'return',
-                prev: '*'
-            }, {
-                blankLine: 'always',
-                next: '*',
-                prev: [ 'const', 'let' ]
-            }, {
-                blankLine: 'never',
-                next: 'const',
-                prev: 'const'
-            }, {
-                blankLine: 'never',
-                next: 'let',
-                prev: 'let'
-            }
-        ],
+        'padding-line-between-statements': [ 'error', {
+            blankLine: 'always',
+            next: 'return',
+            prev: '*'
+        }, {
+            blankLine: 'always',
+            next: '*',
+            prev: [ 'const', 'let' ]
+        }, {
+            blankLine: 'never',
+            next: 'const',
+            prev: 'const'
+        }, {
+            blankLine: 'never',
+            next: 'let',
+            prev: 'let'
+        } ],
         'prefer-const': [ 'error', {
             destructuring: 'any',
             ignoreReadBeforeAssign: false
