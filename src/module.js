@@ -114,6 +114,7 @@ module.exports = {
             ignoreReadBeforeAssign: false
         } ],
         'prefer-numeric-literals': 'error',
+        'prefer-object-spread': 'error',
         'prefer-promise-reject-errors': 'error',
         'quote-props': [ 'error', 'consistent-as-needed' ],
         'quotes': [ 'error', 'single', 'avoid-escape' ],
