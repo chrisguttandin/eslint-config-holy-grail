@@ -88,6 +88,7 @@ module.exports = {
         'node/no-deprecated-api': [ 'error', { ignoreGlobalItems: [ 'require.extensions' ] } ],
         'node/prefer-global/buffer': [ 'error', 'never' ],
         'node/prefer-global/console': [ 'error' ],
+        'node/prefer-global/process': [ 'error', 'never' ],
         'object-curly-newline': [ 'error', { consistent: true } ],
         'object-curly-spacing': [ 'error', 'always' ],
         'object-property-newline': [ 'error', { allowAllPropertiesOnSameLine: true } ],
