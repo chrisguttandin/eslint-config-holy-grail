@@ -90,6 +90,7 @@ module.exports = {
         'node/prefer-global/console': [ 'error' ],
         'node/prefer-global/process': [ 'error', 'never' ],
         'node/prefer-global/url': [ 'error' ],
+        'node/prefer-global/url-search-params': [ 'error' ],
         'object-curly-newline': [ 'error', { consistent: true } ],
         'object-curly-spacing': [ 'error', 'always' ],
         'object-property-newline': [ 'error', { allowAllPropertiesOnSameLine: true } ],
