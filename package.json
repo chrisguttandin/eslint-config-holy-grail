@@ -38,6 +38,7 @@
   "homepage": "https://github.com/chrisguttandin/eslint-config-holy-grail",
   "keywords": [
     "eslint",
+    "eslint-config",
     "eslintconfig"
   ],
   "license": "MIT",
