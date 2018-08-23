@@ -142,6 +142,7 @@ module.exports = {
         'unicorn/no-array-instanceof': 'error',
         'unicorn/no-process-exit': 'error',
         'unicorn/number-literal-case': 'error',
+        'unicorn/prefer-exponentiation-operator': 'error',
         'unicorn/throw-new-error': 'error',
         'vars-on-top': 'error',
         'wrap-iife': 'error'
