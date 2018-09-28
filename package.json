@@ -35,6 +35,11 @@
     "src/"
   ],
   "homepage": "https://github.com/chrisguttandin/eslint-config-holy-grail",
+  "husky": {
+    "hooks": {
+      "pre-commit": "grunt lint"
+    }
+  },
   "keywords": [
     "eslint",
     "eslint-config",
@@ -51,7 +56,6 @@
     "url": "https://github.com/chrisguttandin/eslint-config-holy-grail.git"
   },
   "scripts": {
-    "precommit": "grunt lint",
     "test": "grunt lint && grunt test"
   },
   "version": "31.0.1"
