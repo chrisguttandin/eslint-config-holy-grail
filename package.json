@@ -37,6 +37,7 @@
   "homepage": "https://github.com/chrisguttandin/eslint-config-holy-grail",
   "husky": {
     "hooks": {
+      "commit-msg": "commitlint --edit --extends @commitlint/config-angular",
       "pre-commit": "grunt lint"
     }
   },
