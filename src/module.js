@@ -29,6 +29,7 @@ module.exports = {
         'line-comment-position': [ 'error', { position: 'above' } ],
         'linebreak-style': [ 'error', 'unix' ],
         'lines-between-class-members': [ 'error', 'always' ],
+        'max-classes-per-file': [ 'error', 1 ],
         'multiline-comment-style': 'error',
         'multiline-ternary': [ 'error', 'always-multiline' ],
         'new-cap': 'error',
