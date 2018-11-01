@@ -92,6 +92,7 @@ module.exports = {
         'node/prefer-global/console': [ 'error' ],
         'node/prefer-global/process': [ 'error', 'never' ],
         'node/prefer-global/text-decoder': [ 'error' ],
+        'node/prefer-global/text-encoder': [ 'error' ],
         'node/prefer-global/url': [ 'error' ],
         'node/prefer-global/url-search-params': [ 'error' ],
         'object-curly-newline': [ 'error', { consistent: true } ],
