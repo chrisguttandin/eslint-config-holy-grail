@@ -1,4 +1,4 @@
-const CLIEngine = require('eslint').CLIEngine;
+const { CLIEngine } = require('eslint');
 const config = require('../../src/module.js');
 
 describe('eslint-config-holy-grail', () => {
@@ -8,7 +8,7 @@ describe('eslint-config-holy-grail', () => {
     beforeEach(() => cli = new CLIEngine(config));
 
     it('should lint a dummy text', () => {
-        const report = cli.executeOnText('', 'fake.txt');
+        const report = cli.executeOnText('');
 
         expect(report.errorCount).to.equal(0);
     });
