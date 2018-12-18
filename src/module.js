@@ -48,6 +48,7 @@ module.exports = {
         'no-duplicate-case': 'error',
         'no-duplicate-imports': [ 'error', { includeExports: true } ],
         'no-else-return': 'error',
+        'no-extend-native': 'error',
         'no-extra-boolean-cast': 'error',
         'no-fallthrough': 'error',
         'no-floating-decimal': 'error',
