@@ -144,6 +144,7 @@ module.exports = {
         'template-curly-spacing': [ 'error', 'always' ],
         'unicorn/catch-error-name': [ 'error', { name: 'err' } ],
         'unicorn/error-message': 'error',
+        'unicorn/filename-case': [ 'error', { case: 'kebabCase' } ],
         'unicorn/new-for-builtins': 'error',
         'unicorn/no-array-instanceof': 'error',
         'unicorn/no-process-exit': 'error',
