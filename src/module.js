@@ -86,6 +86,7 @@ module.exports = {
         'no-unsafe-negation': 'error',
         'no-unused-expressions': 'error',
         'no-unused-vars': 'error',
+        'no-useless-catch': 'error',
         'no-useless-escape': 'error',
         'no-useless-return': 'error',
         'no-var': 'error',
