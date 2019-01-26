@@ -147,6 +147,7 @@ module.exports = {
         'unicorn/error-message': 'error',
         'unicorn/filename-case': [ 'error', { case: 'kebabCase' } ],
         'unicorn/new-for-builtins': 'error',
+        'unicorn/no-abusive-eslint-disable': 'error',
         'unicorn/no-array-instanceof': 'error',
         'unicorn/no-process-exit': 'error',
         'unicorn/number-literal-case': 'error',
