@@ -5,7 +5,7 @@
     },
     "extends": "../../src/module.js",
     "globals": {
-        "expect": "readable"
+        "expect": "readonly"
     },
     "rules": {
         "no-unused-expressions": 0
