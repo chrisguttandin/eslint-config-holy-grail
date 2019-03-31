@@ -156,6 +156,7 @@ module.exports = {
         'unicorn/prefer-exponentiation-operator': 'error',
         'unicorn/prefer-includes': 'error',
         'unicorn/prefer-node-remove': 'error',
+        'unicorn/prefer-text-content': 'error',
         'unicorn/throw-new-error': 'error',
         'vars-on-top': 'error',
         'wrap-iife': 'error'
