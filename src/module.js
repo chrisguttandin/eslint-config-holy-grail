@@ -151,6 +151,7 @@ module.exports = {
         'unicorn/no-array-instanceof': 'error',
         'unicorn/no-for-loop': 'error',
         'unicorn/no-process-exit': 'error',
+        'unicorn/no-zero-fractions': 'error',
         'unicorn/number-literal-case': 'error',
         'unicorn/prefer-exponentiation-operator': 'error',
         'unicorn/throw-new-error': 'error',
