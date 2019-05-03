@@ -90,6 +90,7 @@ module.exports = {
         'no-useless-escape': 'error',
         'no-useless-return': 'error',
         'no-var': 'error',
+        'node/file-extension-in-import': [ 'error', 'never' ],
         'node/no-deprecated-api': [ 'error', { ignoreGlobalItems: [ 'require.extensions' ] } ],
         'node/no-missing-require': 'error',
         'node/prefer-global/buffer': [ 'error', 'never' ],
