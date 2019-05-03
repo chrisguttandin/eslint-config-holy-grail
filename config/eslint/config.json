@@ -4,6 +4,7 @@
     },
     "extends": "../../src/module.js",
     "rules": {
-        "no-sync": 0
+        "no-sync": "off",
+        "node/no-missing-require": "off"
     }
 }
