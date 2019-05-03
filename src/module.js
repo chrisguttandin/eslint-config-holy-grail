@@ -7,6 +7,7 @@ module.exports = {
         sourceType: 'module'
     },
     plugins: [
+        'import',
         'node',
         'unicorn'
     ],
@@ -25,6 +26,7 @@ module.exports = {
         'func-call-spacing': 'error',
         'func-name-matching': 'error',
         'function-paren-newline': [ 'error', 'multiline' ],
+        'import/no-default-export': 'error',
         'indent': [ 'error', 4, { VariableDeclarator: { let: 1, var: 1 } } ],
         'line-comment-position': [ 'error', { position: 'above' } ],
         'linebreak-style': [ 'error', 'unix' ],
