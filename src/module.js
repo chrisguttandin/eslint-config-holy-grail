@@ -91,6 +91,7 @@ module.exports = {
         'no-useless-return': 'error',
         'no-var': 'error',
         'node/no-deprecated-api': [ 'error', { ignoreGlobalItems: [ 'require.extensions' ] } ],
+        'node/no-missing-require': 'error',
         'node/prefer-global/buffer': [ 'error', 'never' ],
         'node/prefer-global/console': [ 'error' ],
         'node/prefer-global/process': [ 'error', 'never' ],
