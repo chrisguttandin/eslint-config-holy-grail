@@ -159,6 +159,7 @@ module.exports = {
         'unicorn/number-literal-case': 'error',
         'unicorn/prefer-event-key': 'error',
         'unicorn/prefer-exponentiation-operator': 'error',
+        'unicorn/prefer-flat-map': 'error',
         'unicorn/prefer-includes': 'error',
         'unicorn/prefer-node-remove': 'error',
         'unicorn/prefer-text-content': 'error',
