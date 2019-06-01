@@ -157,6 +157,7 @@ module.exports = {
         'unicorn/no-process-exit': 'error',
         'unicorn/no-zero-fractions': 'error',
         'unicorn/number-literal-case': 'error',
+        'unicorn/prefer-event-key': 'error',
         'unicorn/prefer-exponentiation-operator': 'error',
         'unicorn/prefer-includes': 'error',
         'unicorn/prefer-node-remove': 'error',
