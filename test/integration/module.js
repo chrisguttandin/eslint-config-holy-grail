@@ -8,7 +8,7 @@ describe('eslint-config-holy-grail', () => {
     beforeEach(() => cli = new CLIEngine(config));
 
     it('should lint a dummy text', () => {
-        const report = cli.executeOnText('');
+        const report = cli.executeOnText('', 'text.js');
 
         expect(report.errorCount).to.equal(0);
     });
