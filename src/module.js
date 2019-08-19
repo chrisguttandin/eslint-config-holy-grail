@@ -25,6 +25,7 @@ module.exports = {
         'for-direction': 'error',
         'func-call-spacing': 'error',
         'func-name-matching': 'error',
+        'function-call-argument-newline': [ 'error', 'consistent' ],
         'function-paren-newline': [ 'error', 'multiline' ],
         'import/no-default-export': 'error',
         'indent': [ 'error', 4, { VariableDeclarator: { let: 1, var: 1 } } ],
