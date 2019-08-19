@@ -129,6 +129,7 @@ module.exports = {
             destructuring: 'any',
             ignoreReadBeforeAssign: false
         } ],
+        'prefer-named-capture-group': 'error',
         'prefer-numeric-literals': 'error',
         'prefer-object-spread': 'error',
         'prefer-promise-reject-errors': 'error',
