@@ -11,6 +11,7 @@ module.exports = {
         'node',
         'unicorn'
     ],
+    reportUnusedDisableDirectives: true,
     rules: {
         'array-bracket-spacing': [ 'error', 'always' ],
         'array-element-newline': [ 'error', 'consistent' ],
