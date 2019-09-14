@@ -22,6 +22,7 @@ module.exports = {
         'comma-spacing': [ 'error', { after: true, before: false } ],
         'curly': 'error',
         'default-case': 'error',
+        'default-param-last': 'error',
         'eqeqeq': 'error',
         'for-direction': 'error',
         'func-call-spacing': 'error',
