@@ -57,6 +57,7 @@ module.exports = {
         'no-fallthrough': 'error',
         'no-floating-decimal': 'error',
         'no-global-assign': 'error',
+        'no-import-assign': 'error',
         'no-irregular-whitespace': 'error',
         'no-mixed-operators': 'error',
         'no-multi-assign': 'error',
