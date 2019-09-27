@@ -170,6 +170,7 @@ module.exports = {
         'unicorn/prefer-flat-map': 'error',
         'unicorn/prefer-includes': 'error',
         'unicorn/prefer-node-remove': 'error',
+        'unicorn/prefer-string-slice': 'error',
         'unicorn/prefer-text-content': 'error',
         'unicorn/prefer-type-error': 'error',
         'unicorn/throw-new-error': 'error',
