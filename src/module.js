@@ -29,6 +29,7 @@ module.exports = {
         'func-name-matching': 'error',
         'function-call-argument-newline': [ 'error', 'consistent' ],
         'function-paren-newline': [ 'error', 'multiline' ],
+        'grouped-accessor-pairs': [ 'error', 'getBeforeSet' ],
         'import/no-default-export': 'error',
         'indent': [ 'error', 4, { VariableDeclarator: { let: 1, var: 1 } } ],
         'line-comment-position': [ 'error', { position: 'above' } ],
