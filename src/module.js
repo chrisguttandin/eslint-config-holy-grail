@@ -87,6 +87,7 @@ module.exports = {
             selector: 'NewExpression[callee.name="OpaqueToken"]'
         } ],
         'no-return-await': 'error',
+        'no-setter-return': 'error',
         'no-shadow': 'error',
         'no-sync': 'error',
         'no-throw-literal': 'error',
