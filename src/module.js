@@ -51,6 +51,7 @@ module.exports = {
         'no-constructor-return': 'error',
         'no-debugger': 'error',
         'no-dupe-args': 'error',
+        'no-dupe-else-if': 'error',
         'no-dupe-keys': 'error',
         'no-duplicate-case': 'error',
         'no-duplicate-imports': [ 'error', { includeExports: true } ],
