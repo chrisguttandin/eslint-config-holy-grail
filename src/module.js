@@ -137,6 +137,7 @@ module.exports = {
             destructuring: 'any',
             ignoreReadBeforeAssign: false
         } ],
+        'prefer-exponentiation-operator': 'error',
         'prefer-named-capture-group': 'error',
         'prefer-numeric-literals': 'error',
         'prefer-object-spread': 'error',
