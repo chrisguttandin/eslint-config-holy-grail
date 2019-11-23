@@ -48,6 +48,7 @@ module.exports = {
         'no-compare-neg-zero': 'error',
         'no-cond-assign': [ 'error', 'except-parens' ],
         'no-console': 'error',
+        'no-constructor-return': 'error',
         'no-debugger': 'error',
         'no-dupe-args': 'error',
         'no-dupe-keys': 'error',
