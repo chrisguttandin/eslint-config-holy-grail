@@ -161,6 +161,7 @@ module.exports = {
         'template-curly-spacing': [ 'error', 'always' ],
         'unicorn/catch-error-name': [ 'error', { name: 'err' } ],
         'unicorn/consistent-function-scoping': 'error',
+        'unicorn/custom-error-definition': 'error',
         'unicorn/error-message': 'error',
         'unicorn/filename-case': [ 'error', { case: 'kebabCase' } ],
         'unicorn/new-for-builtins': 'error',
