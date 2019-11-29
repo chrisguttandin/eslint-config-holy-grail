@@ -181,6 +181,7 @@ module.exports = {
         'unicorn/prefer-text-content': 'error',
         'unicorn/prefer-trim-start-end': 'error',
         'unicorn/prefer-type-error': 'error',
+        'unicorn/regex-shorthand': 'error',
         'unicorn/throw-new-error': 'error',
         'vars-on-top': 'error',
         'wrap-iife': 'error'
