@@ -12,7 +12,7 @@ module.exports = (grunt) => {
             cmd: `eslint --config config/eslint/test.json ${ (fix) ? '--fix ' : '' }--report-unused-disable-directives test/**/*.js`
         },
         'test-integration': {
-            cmd: 'mocha --bail --require config/mocha/config-integration.js test/integration'
+            cmd: 'mocha --bail --recursive --require config/mocha/config-integration.js test/integration'
         }
     };
 };
