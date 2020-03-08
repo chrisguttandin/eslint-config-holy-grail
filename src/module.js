@@ -159,6 +159,7 @@ module.exports = {
         'switch-colon-spacing': 'error',
         'symbol-description': 'error',
         'template-curly-spacing': [ 'error', 'always' ],
+        'unicorn/better-regex': 'error',
         'unicorn/catch-error-name': [ 'error', { name: 'err' } ],
         'unicorn/consistent-function-scoping': 'error',
         'unicorn/custom-error-definition': 'error',
@@ -181,7 +182,6 @@ module.exports = {
         'unicorn/prefer-text-content': 'error',
         'unicorn/prefer-trim-start-end': 'error',
         'unicorn/prefer-type-error': 'error',
-        'unicorn/regex-shorthand': 'error',
         'unicorn/throw-new-error': 'error',
         'vars-on-top': 'error',
         'wrap-iife': 'error'
