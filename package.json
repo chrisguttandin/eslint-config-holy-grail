@@ -11,7 +11,7 @@
   "dependencies": {
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-unicorn": "^16.1.1"
+    "eslint-plugin-unicorn": "^17.0.0"
   },
   "description": "This is just my personal eslint configuration.",
   "devDependencies": {
