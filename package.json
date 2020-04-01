@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-unicorn": "^18.0.1"
   },
   "description": "This is just my personal eslint configuration.",
