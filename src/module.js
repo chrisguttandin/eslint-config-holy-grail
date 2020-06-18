@@ -19,7 +19,6 @@ module.exports = {
         'default-param-last': 'error',
         'eqeqeq': 'error',
         'for-direction': 'error',
-        'func-call-spacing': 'error',
         'func-name-matching': 'error',
         'function-call-argument-newline': [ 'error', 'consistent' ],
         'grouped-accessor-pairs': [ 'error', 'getBeforeSet' ],
