@@ -126,7 +126,6 @@ module.exports = {
         'sort-imports': 'error',
         'sort-keys': 'error',
         'sort-vars': [ 'error', { ignoreCase: true } ],
-        'space-before-blocks': [ 'error', 'always' ],
         'strict': [ 'error', 'global' ],
         'symbol-description': 'error',
         'unicorn/better-regex': 'error',
