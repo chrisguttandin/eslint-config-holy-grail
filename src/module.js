@@ -46,7 +46,6 @@ module.exports = {
         'no-extend-native': 'error',
         'no-extra-boolean-cast': 'error',
         'no-fallthrough': 'error',
-        'no-floating-decimal': 'error',
         'no-global-assign': 'error',
         'no-import-assign': 'error',
         'no-irregular-whitespace': 'error',
