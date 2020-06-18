@@ -109,7 +109,6 @@ module.exports = {
         'node/prefer-global/text-encoder': 'error',
         'node/prefer-global/url': 'error',
         'node/prefer-global/url-search-params': 'error',
-        'object-property-newline': [ 'error', { allowAllPropertiesOnSameLine: true } ],
         'object-shorthand': 'error',
         'one-var-declaration-per-line': [ 'error', 'always' ],
         'padding-line-between-statements': [ 'error', {
