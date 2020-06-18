@@ -17,7 +17,6 @@ module.exports = {
         'array-element-newline': [ 'error', 'consistent' ],
         'camelcase': [ 'error', { ignoreDestructuring: true } ],
         'class-methods-use-this': 'error',
-        'curly': 'error',
         'default-case': 'error',
         'default-param-last': 'error',
         'eqeqeq': 'error',
