@@ -19,7 +19,6 @@ module.exports = {
         'camelcase': [ 'error', { ignoreDestructuring: true } ],
         'class-methods-use-this': 'error',
         'comma-dangle': [ 'error', 'never' ],
-        'comma-spacing': [ 'error', { after: true, before: false } ],
         'curly': 'error',
         'default-case': 'error',
         'default-param-last': 'error',
