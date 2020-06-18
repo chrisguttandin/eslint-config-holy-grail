@@ -1,10 +1,4 @@
 module.exports = {
-    lint: [
-        'sh:lint-config',
-        'sh:lint-src',
-        'sh:lint-test'
-    ],
-    test: [
-        'sh:test-integration'
-    ]
+    lint: ['sh:lint-config', 'sh:lint-src', 'sh:lint-test'],
+    test: ['sh:test-integration']
 };

@@ -6,25 +6,21 @@ module.exports = {
         ecmaVersion: '2019',
         sourceType: 'module'
     },
-    plugins: [
-        'import',
-        'node',
-        'unicorn'
-    ],
+    plugins: ['import', 'node', 'unicorn'],
     reportUnusedDisableDirectives: true,
     rules: {
-        'camelcase': [ 'error', { ignoreDestructuring: true } ],
+        'camelcase': ['error', { ignoreDestructuring: true }],
         'class-methods-use-this': 'error',
         'default-case': 'error',
         'default-param-last': 'error',
         'eqeqeq': 'error',
         'for-direction': 'error',
         'func-name-matching': 'error',
-        'grouped-accessor-pairs': [ 'error', 'getBeforeSet' ],
+        'grouped-accessor-pairs': ['error', 'getBeforeSet'],
         'import/no-default-export': 'error',
-        'line-comment-position': [ 'error', { position: 'above' } ],
-        'lines-between-class-members': [ 'error', 'always' ],
-        'max-classes-per-file': [ 'error', 1 ],
+        'line-comment-position': ['error', { position: 'above' }],
+        'lines-between-class-members': ['error', 'always'],
+        'max-classes-per-file': ['error', 1],
         'multiline-comment-style': 'error',
         'new-cap': 'error',
         'no-alert': 'error',
@@ -33,7 +29,7 @@ module.exports = {
         'no-caller': 'error',
         'no-case-declarations': 'error',
         'no-compare-neg-zero': 'error',
-        'no-cond-assign': [ 'error', 'except-parens' ],
+        'no-cond-assign': ['error', 'except-parens'],
         'no-console': 'error',
         'no-constructor-return': 'error',
         'no-debugger': 'error',
@@ -41,7 +37,7 @@ module.exports = {
         'no-dupe-else-if': 'error',
         'no-dupe-keys': 'error',
         'no-duplicate-case': 'error',
-        'no-duplicate-imports': [ 'error', { includeExports: true } ],
+        'no-duplicate-imports': ['error', { includeExports: true }],
         'no-else-return': 'error',
         'no-extend-native': 'error',
         'no-extra-boolean-cast': 'error',
@@ -51,25 +47,34 @@ module.exports = {
         'no-irregular-whitespace': 'error',
         'no-multi-assign': 'error',
         'no-param-reassign': 'error',
-        'no-restricted-properties': [ 'error', {
-            message: 'describe.only() should not end up in any commit.',
-            object: 'describe',
-            property: 'only'
-        }, {
-            message: 'it.only() should not end up in any commit.',
-            object: 'it',
-            property: 'only'
-        } ],
-        'no-restricted-syntax': [ 'error', {
-            message: 'xdescribe() should not end up in any commit.',
-            selector: 'CallExpression[callee.name="xdescribe"]'
-        }, {
-            message: 'xit() should not end up in any commit.',
-            selector: 'CallExpression[callee.name="xit"]'
-        }, {
-            message: 'OpaqueToken is deprecated. InjectionToken should be used instead.',
-            selector: 'NewExpression[callee.name="OpaqueToken"]'
-        } ],
+        'no-restricted-properties': [
+            'error',
+            {
+                message: 'describe.only() should not end up in any commit.',
+                object: 'describe',
+                property: 'only'
+            },
+            {
+                message: 'it.only() should not end up in any commit.',
+                object: 'it',
+                property: 'only'
+            }
+        ],
+        'no-restricted-syntax': [
+            'error',
+            {
+                message: 'xdescribe() should not end up in any commit.',
+                selector: 'CallExpression[callee.name="xdescribe"]'
+            },
+            {
+                message: 'xit() should not end up in any commit.',
+                selector: 'CallExpression[callee.name="xit"]'
+            },
+            {
+                message: 'OpaqueToken is deprecated. InjectionToken should be used instead.',
+                selector: 'NewExpression[callee.name="OpaqueToken"]'
+            }
+        ],
         'no-return-await': 'error',
         'no-setter-return': 'error',
         'no-shadow': 'error',
@@ -82,40 +87,49 @@ module.exports = {
         'no-useless-escape': 'error',
         'no-useless-return': 'error',
         'no-var': 'error',
-        'node/file-extension-in-import': [ 'error', 'never' ],
+        'node/file-extension-in-import': ['error', 'never'],
         'node/no-callback-literal': 'error',
-        'node/no-deprecated-api': [ 'error', { ignoreGlobalItems: [ 'require.extensions' ] } ],
+        'node/no-deprecated-api': ['error', { ignoreGlobalItems: ['require.extensions'] }],
         'node/no-missing-require': 'error',
         'node/no-sync': 'error',
-        'node/prefer-global/buffer': [ 'error', 'never' ],
+        'node/prefer-global/buffer': ['error', 'never'],
         'node/prefer-global/console': 'error',
-        'node/prefer-global/process': [ 'error', 'never' ],
+        'node/prefer-global/process': ['error', 'never'],
         'node/prefer-global/text-decoder': 'error',
         'node/prefer-global/text-encoder': 'error',
         'node/prefer-global/url': 'error',
         'node/prefer-global/url-search-params': 'error',
         'object-shorthand': 'error',
-        'padding-line-between-statements': [ 'error', {
-            blankLine: 'always',
-            next: 'return',
-            prev: '*'
-        }, {
-            blankLine: 'always',
-            next: '*',
-            prev: [ 'const', 'let' ]
-        }, {
-            blankLine: 'never',
-            next: 'const',
-            prev: 'const'
-        }, {
-            blankLine: 'never',
-            next: 'let',
-            prev: 'let'
-        } ],
-        'prefer-const': [ 'error', {
-            destructuring: 'any',
-            ignoreReadBeforeAssign: false
-        } ],
+        'padding-line-between-statements': [
+            'error',
+            {
+                blankLine: 'always',
+                next: 'return',
+                prev: '*'
+            },
+            {
+                blankLine: 'always',
+                next: '*',
+                prev: ['const', 'let']
+            },
+            {
+                blankLine: 'never',
+                next: 'const',
+                prev: 'const'
+            },
+            {
+                blankLine: 'never',
+                next: 'let',
+                prev: 'let'
+            }
+        ],
+        'prefer-const': [
+            'error',
+            {
+                destructuring: 'any',
+                ignoreReadBeforeAssign: false
+            }
+        ],
         'prefer-exponentiation-operator': 'error',
         'prefer-named-capture-group': 'error',
         'prefer-numeric-literals': 'error',
@@ -125,15 +139,15 @@ module.exports = {
         'require-await': 'error',
         'sort-imports': 'error',
         'sort-keys': 'error',
-        'sort-vars': [ 'error', { ignoreCase: true } ],
-        'strict': [ 'error', 'global' ],
+        'sort-vars': ['error', { ignoreCase: true }],
+        'strict': ['error', 'global'],
         'symbol-description': 'error',
         'unicorn/better-regex': 'error',
-        'unicorn/catch-error-name': [ 'error', { name: 'err' } ],
+        'unicorn/catch-error-name': ['error', { name: 'err' }],
         'unicorn/consistent-function-scoping': 'error',
         'unicorn/custom-error-definition': 'error',
         'unicorn/error-message': 'error',
-        'unicorn/filename-case': [ 'error', { case: 'kebabCase' } ],
+        'unicorn/filename-case': ['error', { case: 'kebabCase' }],
         'unicorn/new-for-builtins': 'error',
         'unicorn/no-abusive-eslint-disable': 'error',
         'unicorn/no-array-instanceof': 'error',
@@ -152,6 +166,6 @@ module.exports = {
         'unicorn/prefer-trim-start-end': 'error',
         'unicorn/prefer-type-error': 'error',
         'unicorn/throw-new-error': 'error',
-        'vars-on-top': 'error',
+        'vars-on-top': 'error'
     }
 };
