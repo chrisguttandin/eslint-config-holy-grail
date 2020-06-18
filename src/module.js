@@ -28,7 +28,6 @@ module.exports = {
         'multiline-comment-style': 'error',
         'multiline-ternary': [ 'error', 'always-multiline' ],
         'new-cap': 'error',
-        'newline-per-chained-call': 'error',
         'no-alert': 'error',
         'no-bitwise': 'error',
         'no-buffer-constructor': 'error',
