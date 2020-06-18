@@ -50,7 +50,6 @@ module.exports = {
         'no-import-assign': 'error',
         'no-irregular-whitespace': 'error',
         'no-multi-assign': 'error',
-        'no-multi-spaces': 'error',
         'no-param-reassign': 'error',
         'no-restricted-properties': [ 'error', {
             message: 'describe.only() should not end up in any commit.',
