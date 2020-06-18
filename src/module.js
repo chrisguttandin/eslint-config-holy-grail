@@ -143,7 +143,6 @@ module.exports = {
         'space-before-function-paren': [ 'error', 'always' ],
         'space-infix-ops': 'error',
         'strict': [ 'error', 'global' ],
-        'switch-colon-spacing': 'error',
         'symbol-description': 'error',
         'unicorn/better-regex': 'error',
         'unicorn/catch-error-name': [ 'error', { name: 'err' } ],
