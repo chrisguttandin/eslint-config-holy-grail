@@ -180,6 +180,5 @@ module.exports = {
         'unicorn/prefer-type-error': 'error',
         'unicorn/throw-new-error': 'error',
         'vars-on-top': 'error',
-        'wrap-iife': 'error'
     }
 };
