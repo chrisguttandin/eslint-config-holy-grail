@@ -105,7 +105,6 @@ module.exports = {
         'node/prefer-global/url': 'error',
         'node/prefer-global/url-search-params': 'error',
         'object-shorthand': 'error',
-        'one-var-declaration-per-line': [ 'error', 'always' ],
         'padding-line-between-statements': [ 'error', {
             blankLine: 'always',
             next: 'return',
