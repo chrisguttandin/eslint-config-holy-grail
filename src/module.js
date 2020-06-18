@@ -26,7 +26,6 @@ module.exports = {
         'lines-between-class-members': [ 'error', 'always' ],
         'max-classes-per-file': [ 'error', 1 ],
         'multiline-comment-style': 'error',
-        'multiline-ternary': [ 'error', 'always-multiline' ],
         'new-cap': 'error',
         'no-alert': 'error',
         'no-bitwise': 'error',
