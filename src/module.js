@@ -28,7 +28,6 @@ module.exports = {
         'func-call-spacing': 'error',
         'func-name-matching': 'error',
         'function-call-argument-newline': [ 'error', 'consistent' ],
-        'function-paren-newline': [ 'error', 'multiline' ],
         'grouped-accessor-pairs': [ 'error', 'getBeforeSet' ],
         'import/no-default-export': 'error',
         'line-comment-position': [ 'error', { position: 'above' } ],
