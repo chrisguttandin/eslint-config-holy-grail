@@ -20,7 +20,6 @@ module.exports = {
         'eqeqeq': 'error',
         'for-direction': 'error',
         'func-name-matching': 'error',
-        'function-call-argument-newline': [ 'error', 'consistent' ],
         'grouped-accessor-pairs': [ 'error', 'getBeforeSet' ],
         'import/no-default-export': 'error',
         'line-comment-position': [ 'error', { position: 'above' } ],
