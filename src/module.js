@@ -23,7 +23,6 @@ module.exports = {
         'grouped-accessor-pairs': [ 'error', 'getBeforeSet' ],
         'import/no-default-export': 'error',
         'line-comment-position': [ 'error', { position: 'above' } ],
-        'linebreak-style': [ 'error', 'unix' ],
         'lines-between-class-members': [ 'error', 'always' ],
         'max-classes-per-file': [ 'error', 1 ],
         'multiline-comment-style': 'error',
