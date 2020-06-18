@@ -109,7 +109,6 @@ module.exports = {
         'node/prefer-global/text-encoder': 'error',
         'node/prefer-global/url': 'error',
         'node/prefer-global/url-search-params': 'error',
-        'object-curly-newline': [ 'error', { consistent: true } ],
         'object-curly-spacing': [ 'error', 'always' ],
         'object-property-newline': [ 'error', { allowAllPropertiesOnSameLine: true } ],
         'object-shorthand': 'error',
