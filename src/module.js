@@ -132,7 +132,6 @@ module.exports = {
         'prefer-object-spread': 'error',
         'prefer-promise-reject-errors': 'error',
         'prefer-regex-literals': 'error',
-        'quotes': [ 'error', 'single', 'avoid-escape' ],
         'require-await': 'error',
         'sort-imports': 'error',
         'sort-keys': 'error',
