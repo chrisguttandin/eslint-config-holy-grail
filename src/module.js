@@ -138,7 +138,6 @@ module.exports = {
         'prefer-object-spread': 'error',
         'prefer-promise-reject-errors': 'error',
         'prefer-regex-literals': 'error',
-        'quote-props': [ 'error', 'consistent-as-needed' ],
         'quotes': [ 'error', 'single', 'avoid-escape' ],
         'require-await': 'error',
         'rest-spread-spacing': [ 'error', 'never' ],
