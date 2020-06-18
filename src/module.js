@@ -13,7 +13,6 @@ module.exports = {
     ],
     reportUnusedDisableDirectives: true,
     rules: {
-        'array-bracket-spacing': [ 'error', 'always' ],
         'camelcase': [ 'error', { ignoreDestructuring: true } ],
         'class-methods-use-this': 'error',
         'default-case': 'error',
