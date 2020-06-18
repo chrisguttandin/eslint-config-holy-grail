@@ -18,7 +18,6 @@ module.exports = {
         'block-spacing': [ 'error', 'always' ],
         'camelcase': [ 'error', { ignoreDestructuring: true } ],
         'class-methods-use-this': 'error',
-        'comma-dangle': [ 'error', 'never' ],
         'curly': 'error',
         'default-case': 'error',
         'default-param-last': 'error',
