@@ -145,7 +145,6 @@ module.exports = {
         'strict': [ 'error', 'global' ],
         'switch-colon-spacing': 'error',
         'symbol-description': 'error',
-        'template-curly-spacing': [ 'error', 'always' ],
         'unicorn/better-regex': 'error',
         'unicorn/catch-error-name': [ 'error', { name: 'err' } ],
         'unicorn/consistent-function-scoping': 'error',
