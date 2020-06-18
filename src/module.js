@@ -148,7 +148,6 @@ module.exports = {
         'require-await': 'error',
         'rest-spread-spacing': [ 'error', 'never' ],
         'semi': [ 'error', 'always' ],
-        'semi-style': 'error',
         'sort-imports': 'error',
         'sort-keys': 'error',
         'sort-vars': [ 'error', { ignoreCase: true } ],
