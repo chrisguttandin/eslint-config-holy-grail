@@ -147,7 +147,6 @@ module.exports = {
         'quotes': [ 'error', 'single', 'avoid-escape' ],
         'require-await': 'error',
         'rest-spread-spacing': [ 'error', 'never' ],
-        'semi': [ 'error', 'always' ],
         'sort-imports': 'error',
         'sort-keys': 'error',
         'sort-vars': [ 'error', { ignoreCase: true } ],
