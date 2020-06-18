@@ -61,7 +61,6 @@ module.exports = {
         'no-global-assign': 'error',
         'no-import-assign': 'error',
         'no-irregular-whitespace': 'error',
-        'no-mixed-operators': 'error',
         'no-multi-assign': 'error',
         'no-multi-spaces': 'error',
         'no-param-reassign': 'error',
