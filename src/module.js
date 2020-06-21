@@ -154,7 +154,6 @@ module.exports = {
         'unicorn/no-for-loop': 'error',
         'unicorn/no-process-exit': 'error',
         'unicorn/no-zero-fractions': 'error',
-        'unicorn/number-literal-case': 'error',
         'unicorn/prefer-event-key': 'error',
         'unicorn/prefer-flat-map': 'error',
         'unicorn/prefer-includes': 'error',
