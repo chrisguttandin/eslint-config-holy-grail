@@ -17,6 +17,7 @@ module.exports = {
         'for-direction': 'error',
         'func-name-matching': 'error',
         'grouped-accessor-pairs': ['error', 'getBeforeSet'],
+        'import/no-cycle': 'error',
         'import/no-default-export': 'error',
         'line-comment-position': ['error', { position: 'above' }],
         'lines-between-class-members': ['error', 'always'],
