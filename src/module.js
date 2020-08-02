@@ -155,6 +155,7 @@ module.exports = {
         'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/no-process-exit': 'error',
         'unicorn/no-zero-fractions': 'error',
+        'unicorn/prefer-array-find': 'error',
         'unicorn/prefer-event-key': 'error',
         'unicorn/prefer-flat-map': 'error',
         'unicorn/prefer-includes': 'error',
