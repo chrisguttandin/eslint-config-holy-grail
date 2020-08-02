@@ -152,6 +152,7 @@ module.exports = {
         'unicorn/no-abusive-eslint-disable': 'error',
         'unicorn/no-array-instanceof': 'error',
         'unicorn/no-for-loop': 'error',
+        'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/no-process-exit': 'error',
         'unicorn/no-zero-fractions': 'error',
         'unicorn/prefer-event-key': 'error',
