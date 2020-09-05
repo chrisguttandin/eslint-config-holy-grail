@@ -16,7 +16,7 @@
     "description": "This is just my personal eslint configuration.",
     "devDependencies": {
         "@commitlint/cli": "^11.0.0",
-        "@commitlint/config-angular": "^9.1.1",
+        "@commitlint/config-angular": "^11.0.0",
         "chai": "^4.2.0",
         "commitizen": "^4.2.1",
         "cz-conventional-changelog": "^3.3.0",
