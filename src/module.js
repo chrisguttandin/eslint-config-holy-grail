@@ -159,6 +159,7 @@ module.exports = {
         'unicorn/no-for-loop': 'error',
         'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/no-process-exit': 'error',
+        'unicorn/no-this-assignment': 'error',
         'unicorn/no-zero-fractions': 'error',
         'unicorn/prefer-array-find': 'error',
         'unicorn/prefer-event-key': 'error',
