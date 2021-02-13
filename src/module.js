@@ -155,6 +155,7 @@ module.exports = {
         'unicorn/new-for-builtins': 'error',
         'unicorn/no-abusive-eslint-disable': 'error',
         'unicorn/no-array-instanceof': 'error',
+        'unicorn/no-array-push-push': 'error',
         'unicorn/no-for-loop': 'error',
         'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/no-process-exit': 'error',
