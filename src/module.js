@@ -25,6 +25,7 @@ module.exports = {
         'multiline-comment-style': 'error',
         'new-cap': 'error',
         'no-alert': 'error',
+        'no-array-constructor': 'error',
         'no-bitwise': 'error',
         'no-buffer-constructor': 'error',
         'no-caller': 'error',
