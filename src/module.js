@@ -158,6 +158,7 @@ module.exports = {
         'unicorn/no-array-instanceof': 'error',
         'unicorn/no-array-push-push': 'error',
         'unicorn/no-for-loop': 'error',
+        'unicorn/no-lonely-if': 'error',
         'unicorn/no-new-array': 'error',
         'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/no-process-exit': 'error',
