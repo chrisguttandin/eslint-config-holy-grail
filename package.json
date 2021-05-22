@@ -9,7 +9,7 @@
         }
     },
     "dependencies": {
-        "eslint-plugin-import": "^2.23.2",
+        "eslint-plugin-import": "^2.23.3",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-unicorn": "^32.0.1"
     },
