@@ -37,12 +37,6 @@
         "src/"
     ],
     "homepage": "https://github.com/chrisguttandin/eslint-config-holy-grail",
-    "husky": {
-        "hooks": {
-            "commit-msg": "commitlint --edit --extends @commitlint/config-angular",
-            "pre-commit": "pretty-quick --config config/prettier/config.json --staged && grunt lint"
-        }
-    },
     "keywords": [
         "eslint",
         "eslint-config",
@@ -59,6 +53,7 @@
         "url": "https://github.com/chrisguttandin/eslint-config-holy-grail.git"
     },
     "scripts": {
+        "prepare": "husky install",
         "test": "grunt lint && grunt test"
     },
     "version": "49.0.13"
