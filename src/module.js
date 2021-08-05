@@ -166,6 +166,7 @@ module.exports = {
         'unicorn/no-this-assignment': 'error',
         'unicorn/no-zero-fractions': 'error',
         'unicorn/prefer-array-find': 'error',
+        'unicorn/prefer-array-flat': 'error',
         'unicorn/prefer-date-now': 'error',
         'unicorn/prefer-event-key': 'error',
         'unicorn/prefer-flat-map': 'error',
