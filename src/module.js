@@ -165,6 +165,7 @@ module.exports = {
         'unicorn/no-process-exit': 'error',
         'unicorn/no-this-assignment': 'error',
         'unicorn/no-useless-length-check': 'error',
+        'unicorn/no-useless-spread': 'error',
         'unicorn/no-zero-fractions': 'error',
         'unicorn/prefer-array-find': 'error',
         'unicorn/prefer-array-flat': 'error',
