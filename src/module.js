@@ -176,6 +176,7 @@ module.exports = {
         'unicorn/prefer-modern-dom-apis': 'error',
         'unicorn/prefer-negative-index': 'error',
         'unicorn/prefer-node-remove': 'error',
+        'unicorn/prefer-object-from-entries': 'error',
         'unicorn/prefer-string-slice': 'error',
         'unicorn/prefer-text-content': 'error',
         'unicorn/prefer-trim-start-end': 'error',
