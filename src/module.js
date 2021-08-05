@@ -164,6 +164,7 @@ module.exports = {
         'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/no-process-exit': 'error',
         'unicorn/no-this-assignment': 'error',
+        'unicorn/no-useless-length-check': 'error',
         'unicorn/no-zero-fractions': 'error',
         'unicorn/prefer-array-find': 'error',
         'unicorn/prefer-array-flat': 'error',
