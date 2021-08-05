@@ -163,6 +163,7 @@ module.exports = {
         'unicorn/no-new-array': 'error',
         'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/no-process-exit': 'error',
+        'unicorn/no-static-only-class': 'error',
         'unicorn/no-this-assignment': 'error',
         'unicorn/no-useless-length-check': 'error',
         'unicorn/no-useless-spread': 'error',
