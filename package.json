@@ -13,6 +13,7 @@
         "@angular/compiler": "^12.2.1",
         "@typescript-eslint/eslint-plugin": "^4.29.2",
         "@typescript-eslint/parser": "^4.29.2",
+        "eslint-plugin-etc": "^1.5.4",
         "eslint-plugin-import": "^2.24.0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-rxjs": "^3.3.6",
