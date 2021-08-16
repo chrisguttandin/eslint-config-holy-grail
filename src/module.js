@@ -10,7 +10,7 @@ module.exports = {
                 createDefaultProgram: true,
                 project: ['src/tsconfig.json']
             },
-            plugins: ['@angular-eslint', '@typescript-eslint', 'rxjs'],
+            plugins: ['@angular-eslint', '@typescript-eslint', 'rxjs', 'rxjs-angular'],
             rules: {
                 '@angular-eslint/component-class-suffix': 'error',
                 '@angular-eslint/contextual-decorator': 'error',
@@ -187,6 +187,7 @@ module.exports = {
                 'no-unused-labels': 'error',
                 'prefer-template': 'error',
                 'radix': 'error',
+                'rxjs-angular/prefer-async-pipe': 'error',
                 'rxjs/no-compat': 'error',
                 'rxjs/no-connectable': 'error',
                 'rxjs/no-exposed-subjects': 'error',
