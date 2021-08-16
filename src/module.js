@@ -10,7 +10,7 @@ module.exports = {
                 createDefaultProgram: true,
                 project: ['src/tsconfig.json']
             },
-            plugins: ['@angular-eslint', '@typescript-eslint', 'etc', 'rxjs', 'rxjs-angular'],
+            plugins: ['@angular-eslint', '@typescript-eslint', 'etc', 'jsdoc', 'rxjs', 'rxjs-angular'],
             rules: {
                 '@angular-eslint/component-class-suffix': 'error',
                 '@angular-eslint/contextual-decorator': 'error',
@@ -167,6 +167,9 @@ module.exports = {
                     }
                 ],
                 'import/order': 'error',
+                'jsdoc/check-alignment': 'error',
+                'jsdoc/newline-after-description': 'error',
+                'jsdoc/no-types': 'error',
                 'max-classes-per-file': ['error', 2],
                 'max-len': ['error', { code: 140 }],
                 'new-parens': 'error',
