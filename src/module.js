@@ -10,7 +10,8 @@ module.exports = {
                 createDefaultProgram: true,
                 project: ['src/tsconfig.json']
             },
-            plugins: ['@angular-eslint', '@typescript-eslint', 'etc', 'jsdoc', 'rxjs', 'rxjs-angular'],
+            plugins: ['@angular-eslint', '@angular-eslint/template', '@typescript-eslint', 'etc', 'jsdoc', 'rxjs', 'rxjs-angular'],
+            processor: '@angular-eslint/template/extract-inline-html',
             rules: {
                 '@angular-eslint/component-class-suffix': 'error',
                 '@angular-eslint/contextual-decorator': 'error',
@@ -218,6 +219,44 @@ module.exports = {
                 'sort-imports': 'off',
                 'use-isnan': 'error',
                 'valid-typeof': 'error'
+            }
+        },
+        {
+            files: ['*.html'],
+            parser: '@angular-eslint/template-parser',
+            plugins: ['@angular-eslint/template'],
+            rules: {
+                '@angular-eslint/template/accessibility-alt-text': 'error',
+                '@angular-eslint/template/accessibility-elements-content': 'error',
+                '@angular-eslint/template/accessibility-label-has-associated-control': 'error',
+                '@angular-eslint/template/accessibility-table-scope': 'error',
+                '@angular-eslint/template/accessibility-valid-aria': 'error',
+                '@angular-eslint/template/banana-in-box': 'error',
+                '@angular-eslint/template/click-events-have-key-events': 'error',
+                '@angular-eslint/template/conditional-complexity': 'error',
+                '@angular-eslint/template/cyclomatic-complexity': [
+                    'error',
+                    {
+                        maxComplexity: 6
+                    }
+                ],
+                '@angular-eslint/template/eqeqeq': 'error',
+                '@angular-eslint/template/mouse-events-have-key-events': 'error',
+                '@angular-eslint/template/no-any': 'error',
+                '@angular-eslint/template/no-autofocus': 'error',
+                '@angular-eslint/template/no-call-expression': 'error',
+                '@angular-eslint/template/no-distracting-elements': 'error',
+                '@angular-eslint/template/no-negated-async': 'error',
+                '@angular-eslint/template/no-positive-tabindex': 'error',
+                'node/no-deprecated-api': 'off',
+                'node/prefer-global/buffer': 'off',
+                'node/prefer-global/console': 'off',
+                'node/prefer-global/process': 'off',
+                'node/prefer-global/text-decoder': 'off',
+                'node/prefer-global/text-encoder': 'off',
+                'node/prefer-global/url': 'off',
+                'node/prefer-global/url-search-params': 'off',
+                'strict': 'off'
             }
         }
     ],
