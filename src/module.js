@@ -10,7 +10,104 @@ module.exports = {
                 createDefaultProgram: true,
                 project: ['src/tsconfig.json']
             },
+            plugins: ['@typescript-eslint'],
             rules: {
+                '@typescript-eslint/adjacent-overload-signatures': 'error',
+                '@typescript-eslint/array-type': [
+                    'error',
+                    {
+                        default: 'array'
+                    }
+                ],
+                '@typescript-eslint/await-thenable': 'error',
+                '@typescript-eslint/ban-ts-comment': 'error',
+                '@typescript-eslint/ban-types': [
+                    'error',
+                    {
+                        types: {
+                            Boolean: {
+                                message: 'Avoid using the `Boolean` type. Did you mean `boolean`?'
+                            },
+                            Function: {
+                                message: 'Avoid using the `Function` type. Prefer a specific function type, like `() => void`.'
+                            },
+                            Number: {
+                                message: 'Avoid using the `Number` type. Did you mean `number`?'
+                            },
+                            Object: {
+                                message: 'Avoid using the `Object` type. Did you mean `object`?'
+                            },
+                            OpaqueToken: {
+                                message: 'Avoid using the `OpaqueToken` type. Prefer the `InjectionToken` instead.'
+                            },
+                            String: {
+                                message: 'Avoid using the `String` type. Did you mean `string`?'
+                            },
+                            Symbol: {
+                                message: 'Avoid using the `Symbol` type. Did you mean `symbol`?'
+                            }
+                        }
+                    }
+                ],
+                '@typescript-eslint/consistent-type-assertions': ['error', { assertionStyle: 'angle-bracket' }],
+                '@typescript-eslint/consistent-type-definitions': 'error',
+                '@typescript-eslint/dot-notation': 'error',
+                '@typescript-eslint/explicit-member-accessibility': [
+                    'error',
+                    {
+                        accessibility: 'explicit',
+                        overrides: {
+                            constructors: 'no-public'
+                        }
+                    }
+                ],
+                '@typescript-eslint/member-delimiter-style': [
+                    'error',
+                    {
+                        multiline: {
+                            delimiter: 'semi',
+                            requireLast: true
+                        },
+                        singleline: {
+                            delimiter: 'semi',
+                            requireLast: false
+                        }
+                    }
+                ],
+                '@typescript-eslint/member-ordering': 'error',
+                '@typescript-eslint/method-signature-style': ['error', 'method'],
+                '@typescript-eslint/naming-convention': [
+                    'error',
+                    {
+                        format: ['PascalCase'],
+                        prefix: ['I'],
+                        selector: 'interface'
+                    },
+                    {
+                        format: ['PascalCase'],
+                        prefix: ['T'],
+                        selector: 'typeAlias'
+                    }
+                ],
+                '@typescript-eslint/no-dynamic-delete': 'error',
+                '@typescript-eslint/no-empty-function': 'error',
+                '@typescript-eslint/no-empty-interface': 'error',
+                '@typescript-eslint/no-inferrable-types': 'error',
+                '@typescript-eslint/no-misused-new': 'error',
+                '@typescript-eslint/no-namespace': 'error',
+                '@typescript-eslint/no-non-null-assertion': 'error',
+                '@typescript-eslint/no-require-imports': 'error',
+                '@typescript-eslint/no-shadow': ['error', { hoist: 'all' }],
+                '@typescript-eslint/no-this-alias': 'error',
+                '@typescript-eslint/no-unused-expressions': 'error',
+                '@typescript-eslint/no-var-requires': 'error',
+                '@typescript-eslint/prefer-for-of': 'error',
+                '@typescript-eslint/prefer-function-type': 'error',
+                '@typescript-eslint/prefer-namespace-keyword': 'error',
+                '@typescript-eslint/strict-boolean-expressions': 'error',
+                '@typescript-eslint/triple-slash-reference': ['error', { lib: 'always', path: 'always', types: 'prefer-import' }],
+                '@typescript-eslint/type-annotation-spacing': 'error',
+                '@typescript-eslint/unified-signatures': 'error',
                 'arrow-body-style': 'error',
                 'arrow-parens': 'error',
                 'capitalized-comments': ['error', 'always'],
