@@ -2,6 +2,78 @@ module.exports = {
     env: {
         es6: true
     },
+    overrides: [
+        {
+            files: ['*.ts'],
+            parser: '@typescript-eslint/parser',
+            parserOptions: {
+                createDefaultProgram: true,
+                project: ['src/tsconfig.json']
+            },
+            rules: {
+                'arrow-body-style': 'error',
+                'arrow-parens': 'error',
+                'capitalized-comments': ['error', 'always'],
+                'constructor-super': 'error',
+                'dot-notation': 'error',
+                'eol-last': 'error',
+                'guard-for-in': 'error',
+                'id-denylist': ['error', 'any', 'Boolean', 'boolean', 'Number', 'number', 'String', 'string', 'Undefined', 'undefined'],
+                'id-match': 'error',
+                'import/no-deprecated': 'error',
+                'import/no-extraneous-dependencies': 'error',
+                'import/no-internal-modules': [
+                    'error',
+                    {
+                        allow: [
+                            '@angular/cdk/portal',
+                            '@angular/common/http',
+                            '@angular/core/testing',
+                            '@angular/material/*',
+                            '@angular/platform-browser/animations',
+                            '@angular/platform-browser-dynamic/testing',
+                            '@angular/router/testing',
+                            '@ngrx/effects/testing',
+                            '@nrwl/angular/testing',
+                            'angulartics2/ga',
+                            'angulartics2/gst',
+                            'lodash-es/*',
+                            'regenerator-runtime/runtime',
+                            'rxjs/operators',
+                            'rxjs-etc/operators',
+                            'zone.js/dist',
+                            '~common/*'
+                        ]
+                    }
+                ],
+                'import/order': 'error',
+                'max-classes-per-file': ['error', 2],
+                'max-len': ['error', { code: 140 }],
+                'new-parens': 'error',
+                'no-empty': 'error',
+                'no-empty-function': ['error', { allow: ['constructors'] }],
+                'no-eval': 'error',
+                'no-extra-bind': 'error',
+                'no-invalid-this': 'error',
+                'no-multiple-empty-lines': 'error',
+                'no-new-wrappers': 'error',
+                'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+                'no-restricted-imports': ['error', '@angular/http', 'core-js', 'lodash-es', 'rxjs/Rx'],
+                'no-restricted-syntax': ['error', 'ForInStatement'],
+                'no-sequences': 'error',
+                'no-sparse-arrays': 'error',
+                'no-undef-init': 'error',
+                'no-underscore-dangle': 'off',
+                'no-unsafe-finally': 'error',
+                'no-unused-labels': 'error',
+                'prefer-template': 'error',
+                'radix': 'error',
+                'sort-imports': 'off',
+                'use-isnan': 'error',
+                'valid-typeof': 'error'
+            }
+        }
+    ],
     parserOptions: {
         ecmaVersion: '2020',
         sourceType: 'module'
