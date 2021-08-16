@@ -10,7 +10,7 @@ module.exports = {
                 createDefaultProgram: true,
                 project: ['src/tsconfig.json']
             },
-            plugins: ['@angular-eslint', '@typescript-eslint', 'rxjs', 'rxjs-angular'],
+            plugins: ['@angular-eslint', '@typescript-eslint', 'etc', 'rxjs', 'rxjs-angular'],
             rules: {
                 '@angular-eslint/component-class-suffix': 'error',
                 '@angular-eslint/contextual-decorator': 'error',
@@ -136,6 +136,7 @@ module.exports = {
                 'constructor-super': 'error',
                 'dot-notation': 'error',
                 'eol-last': 'error',
+                'etc/no-assign-mutated-array': 'error',
                 'guard-for-in': 'error',
                 'id-denylist': ['error', 'any', 'Boolean', 'boolean', 'Number', 'number', 'String', 'string', 'Undefined', 'undefined'],
                 'id-match': 'error',
