@@ -22,7 +22,7 @@
         "eslint-plugin-rxjs": "^3.3.7",
         "eslint-plugin-rxjs-angular": "^1.0.6",
         "eslint-plugin-unicorn": "^35.0.0",
-        "typescript": "^4.3.5"
+        "typescript": "^4.4.2"
     },
     "description": "This is just my personal eslint configuration.",
     "devDependencies": {
