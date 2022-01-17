@@ -19,6 +19,7 @@ module.exports = {
                 '@angular-eslint/directive-class-suffix': 'error',
                 '@angular-eslint/no-attribute-decorator': 'error',
                 '@angular-eslint/no-conflicting-lifecycle': 'error',
+                '@angular-eslint/no-empty-lifecycle-method': 'error',
                 '@angular-eslint/no-forward-ref': 'error',
                 '@angular-eslint/no-host-metadata-property': 'error',
                 '@angular-eslint/no-input-rename': 'error',
