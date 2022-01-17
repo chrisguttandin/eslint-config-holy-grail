@@ -120,6 +120,7 @@ module.exports = {
                 '@typescript-eslint/no-namespace': 'error',
                 '@typescript-eslint/no-non-null-assertion': 'error',
                 '@typescript-eslint/no-require-imports': 'error',
+                '@typescript-eslint/no-restricted-imports': ['error', '@angular/http', 'core-js', 'lodash-es', 'rxjs/Rx'],
                 '@typescript-eslint/no-shadow': ['error', { hoist: 'all' }],
                 '@typescript-eslint/no-this-alias': 'error',
                 '@typescript-eslint/no-unused-expressions': 'error',
@@ -181,7 +182,7 @@ module.exports = {
                 'no-multiple-empty-lines': 'error',
                 'no-new-wrappers': 'error',
                 'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
-                'no-restricted-imports': ['error', '@angular/http', 'core-js', 'lodash-es', 'rxjs/Rx'],
+                'no-restricted-imports': 'off',
                 'no-restricted-syntax': ['error', 'ForInStatement'],
                 'no-sequences': 'error',
                 'no-sparse-arrays': 'error',
@@ -309,6 +310,7 @@ module.exports = {
         'no-nonoctal-decimal-escape': 'error',
         'no-param-reassign': 'error',
         'no-promise-executor-return': 'error',
+        'no-restricted-imports': ['error', '@angular/http', 'core-js', 'lodash-es', 'rxjs/Rx'],
         'no-restricted-properties': [
             'error',
             {
