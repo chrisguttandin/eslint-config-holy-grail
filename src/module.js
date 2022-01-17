@@ -430,6 +430,7 @@ module.exports = {
         'unicorn/no-process-exit': 'error',
         'unicorn/no-static-only-class': 'error',
         'unicorn/no-this-assignment': 'error',
+        'unicorn/no-useless-fallback-in-spread': 'error',
         'unicorn/no-useless-length-check': 'error',
         'unicorn/no-useless-spread': 'error',
         'unicorn/no-zero-fractions': 'error',
