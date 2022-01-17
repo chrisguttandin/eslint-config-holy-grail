@@ -348,6 +348,7 @@ module.exports = {
         'no-unsafe-optional-chaining': 'error',
         'no-unused-expressions': 'error',
         'no-unused-vars': 'error',
+        'no-useless-backreference': 'error',
         'no-useless-catch': 'error',
         'no-useless-escape': 'error',
         'no-useless-return': 'error',
