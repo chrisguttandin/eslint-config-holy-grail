@@ -118,6 +118,7 @@ module.exports = {
                 '@typescript-eslint/no-inferrable-types': 'error',
                 '@typescript-eslint/no-misused-new': 'error',
                 '@typescript-eslint/no-namespace': 'error',
+                '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
                 '@typescript-eslint/no-non-null-assertion': 'error',
                 '@typescript-eslint/no-require-imports': 'error',
                 '@typescript-eslint/no-restricted-imports': ['error', '@angular/http', 'core-js', 'lodash-es', 'rxjs/Rx'],
