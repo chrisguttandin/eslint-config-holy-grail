@@ -160,7 +160,6 @@ module.exports = {
                             'angulartics2/gst',
                             'lodash-es/*',
                             'regenerator-runtime/runtime',
-                            'rxjs/operators',
                             'rxjs-etc/operators',
                             'zone.js/dist',
                             '~common/*'
