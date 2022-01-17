@@ -400,6 +400,7 @@ module.exports = {
         'prefer-exponentiation-operator': 'error',
         'prefer-named-capture-group': 'error',
         'prefer-numeric-literals': 'error',
+        'prefer-object-has-own': 'error',
         'prefer-object-spread': 'error',
         'prefer-promise-reject-errors': 'error',
         'prefer-regex-literals': 'error',
