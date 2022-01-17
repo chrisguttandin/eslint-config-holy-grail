@@ -444,6 +444,7 @@ module.exports = {
         'unicorn/prefer-code-point': 'error',
         'unicorn/prefer-date-now': 'error',
         'unicorn/prefer-event-key': 'error',
+        'unicorn/prefer-export-from': 'error',
         'unicorn/prefer-flat-map': 'error',
         'unicorn/prefer-includes': 'error',
         'unicorn/prefer-modern-dom-apis': 'error',
