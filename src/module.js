@@ -435,6 +435,7 @@ module.exports = {
         'unicorn/no-this-assignment': 'error',
         'unicorn/no-useless-fallback-in-spread': 'error',
         'unicorn/no-useless-length-check': 'error',
+        'unicorn/no-useless-promise-resolve-reject': 'error',
         'unicorn/no-useless-spread': 'error',
         'unicorn/no-zero-fractions': 'error',
         'unicorn/prefer-array-find': 'error',
