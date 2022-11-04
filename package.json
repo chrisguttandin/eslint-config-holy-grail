@@ -27,7 +27,7 @@
     "devDependencies": {
         "@commitlint/cli": "^17.2.0",
         "@commitlint/config-angular": "^17.2.0",
-        "@types/node": "^14.18.32",
+        "@types/node": "^14.18.33",
         "chai": "^4.3.6",
         "commitizen": "^4.2.5",
         "cz-conventional-changelog": "^3.3.0",
