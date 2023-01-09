@@ -11,7 +11,7 @@
     "dependencies": {
         "@angular-eslint/eslint-plugin": "^15.1.0",
         "@angular-eslint/eslint-plugin-template": "^15.1.0",
-        "@angular-eslint/template-parser": "^14.4.0",
+        "@angular-eslint/template-parser": "^15.1.0",
         "@typescript-eslint/eslint-plugin": "^5.45.1",
         "@typescript-eslint/parser": "^5.45.1",
         "eslint-plugin-etc": "^2.0.2",
