@@ -25,7 +25,7 @@
     },
     "description": "This is my personal eslint configuration.",
     "devDependencies": {
-        "@commitlint/cli": "^17.3.0",
+        "@commitlint/cli": "^17.4.1",
         "@commitlint/config-angular": "^17.3.0",
         "@types/node": "^14.18.34",
         "chai": "^4.3.7",
