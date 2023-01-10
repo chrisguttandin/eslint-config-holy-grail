@@ -286,6 +286,7 @@ module.exports = {
         'import/no-default-export': 'error',
         'line-comment-position': ['error', { position: 'above' }],
         'lines-between-class-members': ['error', 'always'],
+        'logical-assignment-operators': 'error',
         'max-classes-per-file': ['error', 1],
         'multiline-comment-style': 'error',
         'new-cap': 'error',
