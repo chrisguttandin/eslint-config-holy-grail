@@ -311,6 +311,7 @@ module.exports = {
         'no-irregular-whitespace': 'error',
         'no-loss-of-precision': 'error',
         'no-multi-assign': 'error',
+        'no-new-native-nonconstructor': 'error',
         'no-nonoctal-decimal-escape': 'error',
         'no-param-reassign': 'error',
         'no-promise-executor-return': 'error',
