@@ -57,7 +57,7 @@
     "main": "src/module.js",
     "name": "eslint-config-holy-grail",
     "peerDependencies": {
-        "eslint": ">=8.7.0"
+        "eslint": ">=8.28.0"
     },
     "repository": {
         "type": "git",
