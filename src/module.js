@@ -74,6 +74,7 @@ module.exports = {
                         }
                     }
                 ],
+                '@typescript-eslint/consistent-generic-constructors': 'error',
                 '@typescript-eslint/consistent-type-assertions': ['error', { assertionStyle: 'angle-bracket' }],
                 '@typescript-eslint/consistent-type-definitions': 'error',
                 '@typescript-eslint/dot-notation': 'error',
