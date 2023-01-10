@@ -236,6 +236,7 @@ module.exports = {
                 '@angular-eslint/template/accessibility-table-scope': 'error',
                 '@angular-eslint/template/accessibility-valid-aria': 'error',
                 '@angular-eslint/template/banana-in-box': 'error',
+                '@angular-eslint/template/button-has-type': 'error',
                 '@angular-eslint/template/click-events-have-key-events': 'error',
                 '@angular-eslint/template/conditional-complexity': 'error',
                 '@angular-eslint/template/cyclomatic-complexity': [
