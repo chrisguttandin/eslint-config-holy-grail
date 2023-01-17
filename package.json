@@ -15,7 +15,7 @@
         "@typescript-eslint/eslint-plugin": "^5.48.2",
         "@typescript-eslint/parser": "^5.48.2",
         "eslint-plugin-etc": "^2.0.2",
-        "eslint-plugin-import": "^2.27.4",
+        "eslint-plugin-import": "^2.27.5",
         "eslint-plugin-jsdoc": "^39.6.4",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-rxjs": "^5.0.2",
