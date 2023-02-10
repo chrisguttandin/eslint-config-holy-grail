@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "@angular-eslint/eslint-plugin": "^15.2.1",
-        "@angular-eslint/eslint-plugin-template": "^15.2.0",
+        "@angular-eslint/eslint-plugin-template": "^15.2.1",
         "@angular-eslint/template-parser": "^15.2.0",
         "@typescript-eslint/eslint-plugin": "^5.51.0",
         "@typescript-eslint/parser": "^5.51.0",
