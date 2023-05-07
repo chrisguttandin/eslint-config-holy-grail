@@ -229,12 +229,7 @@ module.exports = {
             parser: '@angular-eslint/template-parser',
             plugins: ['@angular-eslint/template'],
             rules: {
-                '@angular-eslint/template/accessibility-alt-text': 'error',
-                '@angular-eslint/template/accessibility-elements-content': 'error',
-                '@angular-eslint/template/accessibility-interactive-supports-focus': 'error',
-                '@angular-eslint/template/accessibility-label-has-associated-control': 'error',
-                '@angular-eslint/template/accessibility-table-scope': 'error',
-                '@angular-eslint/template/accessibility-valid-aria': 'error',
+                '@angular-eslint/template/alt-text': 'error',
                 '@angular-eslint/template/banana-in-box': 'error',
                 '@angular-eslint/template/button-has-type': 'error',
                 '@angular-eslint/template/click-events-have-key-events': 'error',
@@ -245,7 +240,10 @@ module.exports = {
                         maxComplexity: 6
                     }
                 ],
+                '@angular-eslint/template/elements-content': 'error',
                 '@angular-eslint/template/eqeqeq': 'error',
+                '@angular-eslint/template/interactive-supports-focus': 'error',
+                '@angular-eslint/template/label-has-associated-control': 'error',
                 '@angular-eslint/template/mouse-events-have-key-events': 'error',
                 '@angular-eslint/template/no-any': 'error',
                 '@angular-eslint/template/no-autofocus': 'error',
@@ -253,6 +251,8 @@ module.exports = {
                 '@angular-eslint/template/no-distracting-elements': 'error',
                 '@angular-eslint/template/no-negated-async': 'error',
                 '@angular-eslint/template/no-positive-tabindex': 'error',
+                '@angular-eslint/template/table-scope': 'error',
+                '@angular-eslint/template/valid-aria': 'error',
                 'node/no-deprecated-api': 'off',
                 'node/prefer-global/buffer': 'off',
                 'node/prefer-global/console': 'off',
