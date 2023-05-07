@@ -10,7 +10,7 @@ module.exports = {
                 createDefaultProgram: true,
                 project: ['src/tsconfig.json']
             },
-            plugins: ['@angular-eslint', '@angular-eslint/template', '@typescript-eslint', 'etc', 'jsdoc', 'rxjs', 'rxjs-angular'],
+            plugins: ['@angular-eslint', '@angular-eslint/template', '@typescript-eslint', 'jsdoc', 'rxjs', 'rxjs-angular'],
             processor: '@angular-eslint/template/extract-inline-html',
             rules: {
                 '@angular-eslint/component-class-suffix': 'error',
@@ -143,7 +143,6 @@ module.exports = {
                 'constructor-super': 'error',
                 'dot-notation': 'error',
                 'eol-last': 'error',
-                'etc/no-assign-mutated-array': 'error',
                 'guard-for-in': 'error',
                 'id-denylist': ['error', 'any', 'Boolean', 'boolean', 'Number', 'number', 'String', 'string', 'Undefined', 'undefined'],
                 'id-match': 'error',
