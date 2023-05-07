@@ -10,7 +10,7 @@ module.exports = {
                 createDefaultProgram: true,
                 project: ['src/tsconfig.json']
             },
-            plugins: ['@angular-eslint', '@angular-eslint/template', '@typescript-eslint', 'jsdoc', 'rxjs', 'rxjs-angular'],
+            plugins: ['@angular-eslint', '@angular-eslint/template', '@typescript-eslint', 'jsdoc', 'rxjs'],
             processor: '@angular-eslint/template/extract-inline-html',
             rules: {
                 '@angular-eslint/component-class-suffix': 'error',
@@ -196,7 +196,6 @@ module.exports = {
                 'no-unused-labels': 'error',
                 'prefer-template': 'error',
                 'radix': 'error',
-                'rxjs-angular/prefer-async-pipe': 'error',
                 'rxjs/no-compat': 'error',
                 'rxjs/no-connectable': 'error',
                 'rxjs/no-exposed-subjects': 'error',
