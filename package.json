@@ -13,7 +13,7 @@
         "@angular-eslint/eslint-plugin-template": "^16.0.3",
         "@angular-eslint/template-parser": "^16.0.3",
         "@typescript-eslint/eslint-plugin": "^5.62.0",
-        "@typescript-eslint/parser": "^5.61.0",
+        "@typescript-eslint/parser": "^5.62.0",
         "eslint-plugin-etc": "^2.0.3",
         "eslint-plugin-import": "^2.27.5",
         "eslint-plugin-jsdoc": "^46.4.3",
