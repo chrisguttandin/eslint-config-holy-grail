@@ -63,6 +63,7 @@
         "url": "https://github.com/chrisguttandin/eslint-config-holy-grail.git"
     },
     "scripts": {
+        "lint:config": "eslint --config config/eslint/config.json --ext .js --report-unused-disable-directives config/",
         "prepare": "husky install",
         "test": "grunt lint && grunt test"
     },
