@@ -140,6 +140,12 @@ module.exports = {
                 'arrow-body-style': 'error',
                 'arrow-parens': 'error',
                 'capitalized-comments': ['error', 'always'],
+                'check-file/filename-naming-convention': [
+                    'error',
+                    {
+                        '**/*.ts': 'KEBAB_CASE'
+                    }
+                ],
                 'constructor-super': 'error',
                 'dot-notation': 'error',
                 'eol-last': 'error',
@@ -272,10 +278,11 @@ module.exports = {
         ecmaVersion: '2020',
         sourceType: 'module'
     },
-    plugins: ['import', 'node', 'unicorn'],
+    plugins: ['check-file', 'import', 'node', 'unicorn'],
     reportUnusedDisableDirectives: true,
     rules: {
         'camelcase': ['error', { ignoreDestructuring: true }],
+        'check-file/filename-naming-convention': ['error', { '**/*.js': 'KEBAB_CASE' }],
         'class-methods-use-this': 'error',
         'default-case': 'error',
         'default-param-last': 'error',
