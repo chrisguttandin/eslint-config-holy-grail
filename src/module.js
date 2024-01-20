@@ -283,6 +283,12 @@ module.exports = {
     rules: {
         'camelcase': ['error', { ignoreDestructuring: true }],
         'check-file/filename-naming-convention': ['error', { '**/*.js': 'KEBAB_CASE' }],
+        'check-file/folder-naming-convention': [
+            'error',
+            {
+                '**': 'KEBAB_CASE'
+            }
+        ],
         'class-methods-use-this': 'error',
         'default-case': 'error',
         'default-param-last': 'error',
