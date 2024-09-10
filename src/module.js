@@ -449,6 +449,7 @@ module.exports = {
         'unicorn/no-empty-file': 'error',
         'unicorn/no-for-loop': 'error',
         'unicorn/no-invalid-remove-event-listener': 'error',
+        'unicorn/no-length-as-slice-end': 'error',
         'unicorn/no-lonely-if': 'error',
         'unicorn/no-new-array': 'error',
         'unicorn/no-object-as-default-parameter': 'error',
