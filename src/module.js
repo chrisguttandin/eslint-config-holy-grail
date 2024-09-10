@@ -451,6 +451,7 @@ module.exports = {
         'unicorn/no-new-array': 'error',
         'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/no-process-exit': 'error',
+        'unicorn/no-single-promise-in-promise-methods': 'error',
         'unicorn/no-static-only-class': 'error',
         'unicorn/no-this-assignment': 'error',
         'unicorn/no-useless-fallback-in-spread': 'error',
