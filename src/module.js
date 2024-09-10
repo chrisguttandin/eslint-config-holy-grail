@@ -436,6 +436,7 @@ module.exports = {
         'symbol-description': 'error',
         'unicorn/better-regex': 'error',
         'unicorn/catch-error-name': ['error', { name: 'err' }],
+        'unicorn/consistent-empty-array-spread': 'error',
         'unicorn/consistent-function-scoping': 'error',
         'unicorn/custom-error-definition': 'error',
         'unicorn/error-message': 'error',
