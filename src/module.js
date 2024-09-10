@@ -48,34 +48,6 @@ module.exports = {
                 ],
                 '@typescript-eslint/await-thenable': 'error',
                 '@typescript-eslint/ban-ts-comment': 'error',
-                '@typescript-eslint/ban-types': [
-                    'error',
-                    {
-                        types: {
-                            Boolean: {
-                                message: 'Avoid using the `Boolean` type. Did you mean `boolean`?'
-                            },
-                            Function: {
-                                message: 'Avoid using the `Function` type. Prefer a specific function type, like `() => void`.'
-                            },
-                            Number: {
-                                message: 'Avoid using the `Number` type. Did you mean `number`?'
-                            },
-                            Object: {
-                                message: 'Avoid using the `Object` type. Did you mean `object`?'
-                            },
-                            OpaqueToken: {
-                                message: 'Avoid using the `OpaqueToken` type. Prefer the `InjectionToken` instead.'
-                            },
-                            String: {
-                                message: 'Avoid using the `String` type. Did you mean `string`?'
-                            },
-                            Symbol: {
-                                message: 'Avoid using the `Symbol` type. Did you mean `symbol`?'
-                            }
-                        }
-                    }
-                ],
                 '@typescript-eslint/consistent-generic-constructors': 'error',
                 '@typescript-eslint/consistent-type-assertions': ['error', { assertionStyle: 'angle-bracket' }],
                 '@typescript-eslint/consistent-type-definitions': 'error',
@@ -115,6 +87,34 @@ module.exports = {
                 '@typescript-eslint/no-non-null-assertion': 'error',
                 '@typescript-eslint/no-require-imports': 'error',
                 '@typescript-eslint/no-restricted-imports': ['error', '@angular/http', 'core-js', 'lodash-es', 'rxjs/Rx'],
+                '@typescript-eslint/no-restricted-types': [
+                    'error',
+                    {
+                        types: {
+                            Boolean: {
+                                message: 'Avoid using the `Boolean` type. Did you mean `boolean`?'
+                            },
+                            Function: {
+                                message: 'Avoid using the `Function` type. Prefer a specific function type, like `() => void`.'
+                            },
+                            Number: {
+                                message: 'Avoid using the `Number` type. Did you mean `number`?'
+                            },
+                            Object: {
+                                message: 'Avoid using the `Object` type. Did you mean `object`?'
+                            },
+                            OpaqueToken: {
+                                message: 'Avoid using the `OpaqueToken` type. Prefer the `InjectionToken` instead.'
+                            },
+                            String: {
+                                message: 'Avoid using the `String` type. Did you mean `string`?'
+                            },
+                            Symbol: {
+                                message: 'Avoid using the `Symbol` type. Did you mean `symbol`?'
+                            }
+                        }
+                    }
+                ],
                 '@typescript-eslint/no-shadow': ['error', { hoist: 'all' }],
                 '@typescript-eslint/no-this-alias': 'error',
                 '@typescript-eslint/no-unused-expressions': 'error',
