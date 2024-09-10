@@ -137,7 +137,6 @@ module.exports = {
                 '@typescript-eslint/prefer-namespace-keyword': 'error',
                 '@typescript-eslint/strict-boolean-expressions': 'error',
                 '@typescript-eslint/triple-slash-reference': ['error', { lib: 'always', path: 'always', types: 'prefer-import' }],
-                '@typescript-eslint/type-annotation-spacing': 'error',
                 '@typescript-eslint/unified-signatures': 'error',
                 'arrow-body-style': 'error',
                 'arrow-parens': 'error',
