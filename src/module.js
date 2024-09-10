@@ -473,6 +473,7 @@ module.exports = {
         'unicorn/prefer-negative-index': 'error',
         'unicorn/prefer-node-remove': 'error',
         'unicorn/prefer-object-from-entries': 'error',
+        'unicorn/prefer-string-raw': 'error',
         'unicorn/prefer-string-slice': 'error',
         'unicorn/prefer-text-content': 'error',
         'unicorn/prefer-trim-start-end': 'error',
