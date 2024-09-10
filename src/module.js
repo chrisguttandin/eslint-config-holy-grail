@@ -444,6 +444,7 @@ module.exports = {
         'unicorn/no-abusive-eslint-disable': 'error',
         'unicorn/no-array-instanceof': 'error',
         'unicorn/no-array-push-push': 'error',
+        'unicorn/no-await-in-promise-methods': 'error',
         'unicorn/no-empty-file': 'error',
         'unicorn/no-for-loop': 'error',
         'unicorn/no-invalid-remove-event-listener': 'error',
