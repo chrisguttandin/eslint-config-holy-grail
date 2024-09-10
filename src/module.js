@@ -18,6 +18,7 @@ module.exports = {
                 '@angular-eslint/contextual-lifecycle': 'error',
                 '@angular-eslint/directive-class-suffix': 'error',
                 '@angular-eslint/no-attribute-decorator': 'error',
+                '@angular-eslint/no-duplicates-in-metadata-arrays': 'error',
                 '@angular-eslint/no-empty-lifecycle-method': 'error',
                 '@angular-eslint/no-forward-ref': 'error',
                 '@angular-eslint/no-host-metadata-property': 'error',
