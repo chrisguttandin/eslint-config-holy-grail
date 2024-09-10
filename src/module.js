@@ -475,6 +475,7 @@ module.exports = {
         'unicorn/prefer-object-from-entries': 'error',
         'unicorn/prefer-string-raw': 'error',
         'unicorn/prefer-string-slice': 'error',
+        'unicorn/prefer-structured-clone': 'error',
         'unicorn/prefer-text-content': 'error',
         'unicorn/prefer-trim-start-end': 'error',
         'unicorn/prefer-type-error': 'error',
