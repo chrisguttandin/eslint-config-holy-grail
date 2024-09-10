@@ -451,6 +451,7 @@ module.exports = {
         'unicorn/no-invalid-remove-event-listener': 'error',
         'unicorn/no-length-as-slice-end': 'error',
         'unicorn/no-lonely-if': 'error',
+        'unicorn/no-negation-in-equality-check': 'error',
         'unicorn/no-new-array': 'error',
         'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/no-process-exit': 'error',
