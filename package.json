@@ -71,5 +71,5 @@
         "prepare": "husky",
         "test": "grunt lint && grunt test"
     },
-    "version": "60.0.21"
+    "version": "60.0.22"
 }
