@@ -34,7 +34,6 @@ module.exports = {
                 '@angular-eslint/prefer-on-push-component-change-detection': 'error',
                 '@angular-eslint/relative-url-prefix': 'error',
                 '@angular-eslint/runtime-localize': 'error',
-                '@angular-eslint/sort-ngmodule-metadata-arrays': 'error',
                 '@angular-eslint/use-component-view-encapsulation': 'error',
                 '@angular-eslint/use-injectable-provided-in': 'error',
                 '@angular-eslint/use-lifecycle-interface': 'error',
