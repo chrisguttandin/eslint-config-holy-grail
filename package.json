@@ -71,5 +71,5 @@
         "prepare": "husky",
         "test": "npm run lint && grunt test"
     },
-    "version": "60.0.25"
+    "version": "60.0.26"
 }
