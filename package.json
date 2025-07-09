@@ -68,5 +68,5 @@
         "test": "npm run lint && npm run test:integration",
         "test:integration": "if [ \"$TYPE\" = \"\" -o \"$TYPE\" = \"integration\" ]; then mocha --bail --parallel --recursive --require config/mocha/config-integration.mjs test/integration; fi"
     },
-    "version": "60.0.35"
+    "version": "60.0.36"
 }
