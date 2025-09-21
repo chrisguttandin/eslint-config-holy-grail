@@ -9,9 +9,9 @@
         }
     },
     "dependencies": {
-        "@angular-eslint/eslint-plugin": "^20.1.1",
-        "@angular-eslint/eslint-plugin-template": "^20.1.1",
-        "@angular-eslint/template-parser": "^20.1.1",
+        "@angular-eslint/eslint-plugin": "^20.3.0",
+        "@angular-eslint/eslint-plugin-template": "^20.3.0",
+        "@angular-eslint/template-parser": "^20.3.0",
         "@typescript-eslint/eslint-plugin": "^8.39.1",
         "@typescript-eslint/parser": "^8.39.1",
         "eslint-plugin-check-file": "^2.8.0",
