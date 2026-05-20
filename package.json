@@ -38,7 +38,7 @@
         "prettier": "^3.8.3"
     },
     "engines": {
-        "node": ">=18.2.0"
+        "node": ">=22.22.2"
     },
     "files": [
         "src/"
