@@ -9,7 +9,6 @@
         }
     },
     "dependencies": {
-        "@angular-eslint/template-parser": "^20.4.0",
         "@typescript-eslint/eslint-plugin": "^8.59.3",
         "@typescript-eslint/parser": "^8.59.3",
         "angular-eslint": "^21.4.0",
