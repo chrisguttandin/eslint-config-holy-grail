@@ -11,7 +11,6 @@
     "dependencies": {
         "angular-eslint": "^21.4.0",
         "eslint-plugin-check-file": "^3.3.1",
-        "eslint-plugin-etc": "^2.0.3",
         "eslint-plugin-import": "^2.32.0",
         "eslint-plugin-jsdoc": "^63.0.0",
         "eslint-plugin-n": "^18.0.1",
