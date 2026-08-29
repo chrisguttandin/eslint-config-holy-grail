@@ -49,6 +49,7 @@
     "license": "MIT",
     "main": "src/module.js",
     "name": "eslint-config-holy-grail",
+    "packageManager": "npm@12",
     "peerDependencies": {
         "eslint": ">=9.39.4"
     },
